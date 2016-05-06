@@ -1,10 +1,10 @@
 {
   "specs": [
     {
-      "url": "https://github.com/mulsahu/testspac/blob/master/bensbargains.com.json"
+      "url": "https://raw.githubusercontent.com/mulsahu/testspac/master/bensbargains.com.json"
     },
     {
-      "url": "https://github.com/mulsahu/testspac/blob/master/bizrate.com.json"
+      "url": "https://raw.githubusercontent.com/mulsahu/testspac/master/bizrate.com.json"
     }
   ]
 }
