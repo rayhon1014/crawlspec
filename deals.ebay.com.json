@@ -1,0 +1,17 @@
+{
+  "name":"crawl deals.ebay.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://anywhere.ebay.com/services/feed/deals/deals.php?siteid=0&version=3&dealdetail=3"
+  ],
+  "list_xpath":"//InitiativeFeed//Initiative//InitiativeSection//Items//Item",
+  "fields":{
+    "siteName": "##deals.ebay.com",
+    "title": "//ItemDetails//Title//text()",
+    "category": "##Deals",
+    "imageUrl": "//ItemDetails//PictureURL//text()",
+    "regularPrice": "//ItemDetails//RRP//text() !! ([0-9]*\\.?[0-9]+)",
+    "dealPrice": "//ItemDetails//ConvertedCurrentPrice//text() !! ([0-9]*\\.?[0-9]+)",
+    "detailUrl": "//ItemDetails//ViewItemURLforNaturalSearch//text()"
+  }
+}

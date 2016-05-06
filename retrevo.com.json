@@ -1,0 +1,16 @@
+{
+  "name":"crawl www.retrevo.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.retrevo.com/samples/Laptop.html"
+  ],
+  "list_xpath":"//div[contains(@id,'seoReviews')]//div[contains(@class,'datasection')]//div[contains(@class,'productDetails')]",
+  "fields":{
+    "siteName": "##www.retrevo.com",
+    "title": "//table//td[contains(@valign,'top')]//div[contains(@class,'productName')]//a",
+    "category": "##laptop",
+    "imageUrl": "//table//td[contains(@valign,'middle')]//a//img/@src",
+    "desc": "//table//td[contains(@valign,'top')]//div[contains(@class,'specs')]",
+   "detailUrl": "//table//td[contains(@valign,'middle')]//a/@href"
+  }
+}

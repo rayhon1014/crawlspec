@@ -1,0 +1,18 @@
+{
+  "name":"crawl slickdeals forum",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://slickdeals.net/forums/forumdisplay.php?f=9&page=1&rp=2&daysprune=14&intagid%5B%5D=9&intagid%5B%5D=146&intagid%5B%5D=40&intagid%5B%5D=309&order=desc&sort=lastpost&vote=6&pp=80"
+  ],
+  "list_xpath":"//table[contains(@id, 'threadslist')]//tr[contains(@id, 'sdpostrow')]",
+  "fields":{
+    "siteName": "##slickdeals.net",
+    "title": "//div[contains(@class, 'threadtitleline')]//a",
+    "category": "//td[contains(@class, 'alt2') and contains(@class, 'tlv3_cat')]//a",
+    "score": "//td[contains(@id,'td_threadtitle')]//div[contains(@class, 'smallfont')]//span//img[contains(@class, 'concat-thumbs')]/@alt !! Score: ([0-9]+)",
+    "likeNum": "//td//div[contains(@class, 'smallfont')]//span//img[contains(@class, 'concat-thumbs')]/@alt !! Votes: ([0-9]+)",
+    "reviewNum": "//td[5]//a",
+    "desc": "//td[3]/@title",
+    "detailUrl": "//div[contains(@class, 'threadtitleline')]//a/@href"
+  }
+} 

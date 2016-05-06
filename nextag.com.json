@@ -1,0 +1,18 @@
+{
+  "name":"crawl www.nextag.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.nextag.com/best-deals/home"
+  ],
+  "list_xpath":"//div[contains(@class,'dealsContainer')]//ul[contains(@id,'dealItems')]//li[contains(@class,'dealItem')]",
+  "fields":{
+    "siteName": "##www.nextag.com",
+    "title": "//div[contains(@class,'dealItemTitle')]//a/@title",
+    "category": "##Deals",
+    "imageUrl": "//a[contains(@class,'dealItemImgContainer')]//img/@src",
+    "regularPrice": "//div[contains(@class,'dealItemPrice')]//a//span[contains(@class,'truePrice')] !! ([0-9]*\\.?[0-9]+)",
+    "dealPrice": "//div[contains(@class,'dealItemPrice')]//a//span[contains(@class,'priceTxt')] !! ([0-9]*\\.?[0-9]+)",
+    "detailUrl": "//div[contains(@class,'dealItemTitle')]//a/@href",
+    "discount": "//div[contains(@class,'discountBubble')]//span[contains(@class,'discountText')] !! ([0-9]*\\.?[0-9]+)"
+  }
+}

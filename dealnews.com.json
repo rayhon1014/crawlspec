@@ -1,0 +1,18 @@
+{
+  "name":"crawl dealnews.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.dealnews.com/c142/Electronics/?p=1"
+  ],
+  "list_xpath":"//div[contains(@class,'content-view')]",
+  "fields":{
+    "siteName": "##dealnews.com",
+    "title": "//h3[contains(@class,'headline-xlarge')]//a",
+    "category": "##Electronics",
+    "imageUrl": "//div[contains(@class,'content-image')]//a//img/@data-src",
+    "desc": "//div[contains(@class,'content-details')]//div[contains(@class,'content-body')]",
+    "detailUrl": "//div[contains(@class,'content-image')]//a/@href",
+    "salePitch": "//small[contains(@class,'content-sub-call-out')]",
+    "redirUrl": "//div[contains(@class,'content-specs')]//a/@href"
+  }
+}

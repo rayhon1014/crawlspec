@@ -1,0 +1,19 @@
+{
+  "name":"crawl fatwallet.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "https://www.fatwallet.com/electronics-computer-deals/?page=1"
+  ],
+  "list_xpath":"//div[contains(@class,'standardPageSection')][1]//ul[contains(@class,'offer-list-container')]//li",
+  "fields":{
+    "siteName": "##www.fatwallet.com",
+    "title": "//div[contains(@class,'offer-cell')]//span[contains(@class,'offer-details-url')]",
+    "category": "##Electronics and Computers",
+    "imageUrl": "//div[contains(@class,'offer-image')]//img/@src",
+    "regularPrice": "//div[contains(@class,'offer-cell')]//span[contains(@class,'was-price')] !! ([0-9]*\\.?[0-9]+)",
+    "dealPrice": "//div[contains(@class,'offer-cell')]//span[contains(@class,'current-price')]//span[contains(@class,'price')] !! ([0-9]*\\.?[0-9]+)",
+    "merchant": "//div[contains(@class,'top')]//@alt",
+    "detailUrl": "//a/@href",
+    "discount": "//div[contains(@class,'offer-cell')]//span[contains(@class,'cashback-text')]//span[contains(@class,'cashback-value')] !! ([0-9]*\\.?[0-9]+)"
+  }
+}

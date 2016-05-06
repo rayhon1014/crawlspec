@@ -1,0 +1,22 @@
+{
+  "name":"crawl bensbargains.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://bensbargains.com/categories/computers-104/10/"
+  ],
+  "list_xpath":"//article[contains(@id, 'deal')]",
+  "fields":{
+    "siteName": "##bensbargains.com",
+    "title": "//h2[contains(@class, 'deal-title')]/a !! (.+) at",
+    "detailUrl": "//h2[contains(@class, 'deal-title')]/a/@href",
+    "category": "##Computer",
+    "score": "//div[contains(@class, 'deal-hotness-meter')]/@style !! width:([0-9]+)px;",
+    "reviewNum": "//div[contains(@class, 'deal-comment-replies')]/span",
+    "merchant": "//a[contains(@class, 'deal-merchant')]",
+    "desc": "//div[contains(@class, 'deal-description')]",
+    "salePitch": "//div[contains(@class, 'deal-hotness-label')]",
+    "regularPrice": "//div[contains(@class, 'deal-msrp')] !! \\$([0-9]+)",
+    "dealPrice": "//div[contains(@class, 'deal-price')] !! \\$([0-9]+)",
+    "imageUrl": "//figure[contains(@class, 'deal-image')]//img/@data-original"
+  }
+}

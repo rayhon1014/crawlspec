@@ -1,0 +1,19 @@
+{
+  "name":"crawl www.bizrate.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.bizrate.com/laptop-accessories/"
+  ],
+  "list_xpath":"//div[contains(@class, 'results')]//table[contains(@class,'result')]",
+  "fields":{
+    "siteName": "##www.bizrate.com",
+    "title": "//td[contains(@class,'details')]//p[contains(@class,'title')]//a",
+    "category": "##laptop accessories",
+    "imageUrl": "//td[contains(@class,'image')]//a//img/@src",
+    "desc": "//td[contains(@class,'details')]//p[contains(@class,'description')]//a",
+    "regularPrice": "//td[contains(@class,'purchase')]//p[contains(@class,'price')]//span !! ([0-9]*\\.?[0-9]+)",
+    "dealPrice": "//td[contains(@class,'purchase')]//p[contains(@class,'price')]//a !! ([0-9]*\\.?[0-9]+)",
+    "salePitch": "//td[contains(@class,'purchase')]//p[contains(@class,'tax-shipping')]",
+    "detailUrl": "//td[contains(@class,'details')]//p[contains(@class,'title')]//a/@href"
+  }
+}

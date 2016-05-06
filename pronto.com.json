@@ -1,0 +1,17 @@
+{
+  "name":"crawl www.pronto.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.pronto.com/shopping?l=dir&limit=25&o=0&page=1&q=computer&type=search&qsrc=0&qo=homepageSearchBox"
+  ],
+  "list_xpath":"//div[contains(@class,'partial-search-results-body')]//div[contains(@class,'partial-search-results-item')]",
+  "fields":{
+    "siteName": "##www.pronto.com",
+    "title": "//li[contains(@class,'partial-search-results-item-title')]",
+    "category": "##computer",
+    "imageUrl": "//li[contains(@class,'partial-search-results-item-img')]//img/@src",
+    "dealPrice": "//li[contains(@class,'partial-search-results-item-price')]//span !! ([0-9]*\\.?[0-9]+)",
+	"merchant": "//li[contains(@class,'partial-search-results-item-storelogo')]//p",
+    "detailUrl": "//a/@href"
+  }
+}

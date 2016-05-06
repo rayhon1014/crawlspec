@@ -1,0 +1,17 @@
+{
+  "name":"crawl www.shoplocal.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.shoplocal.com/deals/electronics?categories=533431"
+  ],
+  "list_xpath":"//section[contains(@class,'sl_dealbrowse')]//div[contains(@class,'sl_deal_tile')]",
+  "fields":{
+    "siteName": "##www.shoplocal.com",
+    "title": "//div[contains(@class,'tile_label')]//div[contains(@class,'tile_secondary')]",
+    "category": "##electronics",
+    "imageUrl": "//div[contains(@class,'tile_image')]/@style !! (http.*[0-9a-zA-Z])",
+    "dealPrice": "//div[contains(@class,'tile_label')]//div[contains(@class,'tile_primary')] !! ([0-9]*\\.?[0-9]+)",
+	"merchant": "//div[contains(@class,'sl_retailer_name')]//img/@alt",
+    "detailUrl": "//a/@href"
+  }
+}

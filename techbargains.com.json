@@ -1,0 +1,21 @@
+{
+  "name":"crawl techbargains.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.techbargains.com/?page=1"
+  ],
+  "list_xpath":"//section[contains(@class,'deal-feed')]//div[contains(@class,'deal_wrapper')]",
+  "fields":{
+    "siteName": "##www.techbargains.com",
+    "title": "//div[contains(@class,'deal-inner_right')]//h4[contains(@class,'deal-title')]/a",
+    "imageUrl": "//div[contains(@class,'deal-image_wrapper')]//a/@style !! (http.*[0-9a-zA-Z]+)",
+    "category": "##deals",
+    "desc": "//div[contains(@class,'deal-inner_right')]//div[contains(@class,'deal-description')]//p",
+    "regularPrice": "//div[contains(@class,'deal-price_wrapper')]//p[contains(@class,'list-price')]//span[1] !! ([0-9]*\\.?[0-9]+)",
+    "dealPrice": "//div[contains(@class,'deal-price_wrapper')]//p[contains(@class,'final-price')]//span !! ([0-9]*\\.?[0-9]+)",
+    "discount": "//div[contains(@class,'deal-price_wrapper')]//p[contains(@class,'list-price')]//span[2] !! ([0-9]*\\.?[0-9]+)",
+    "detailUrl": "//div[contains(@class,'deal-title')]//a/@href",
+    "salePitch": "//div[contains(@class,'deal-price_wrapper')]//p[contains(@class,'shipping')]",
+    "redirUrl": "//div[contains(@class,'deal-btn_wrapper')]//a/@href"
+  }
+}

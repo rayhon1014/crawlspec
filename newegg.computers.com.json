@@ -1,0 +1,21 @@
+{
+  "name":"crawl newegg.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.newegg.com/Product/ProductList.aspx?Submit=Pers&sid=3&ste=4&Tid=6550&Depa=3&pmid=2C2AFC2B-8145-4348-B643-1D9ADA46D529&fbid=2&trid=0&di=35-103-099%2c20-242-063%2c20-223-103&v=&s=&w=&o=&k="
+  ],
+  "list_xpath":"//div[contains(@class,'productList')]//div[contains(@class,'version600')]//div[contains(@class,'itemCell')]",
+  "fields":{
+    "siteName": "##www.newegg.com",
+    "title": "//span[contains(@class,'itemDescription')][1]",
+    "category": "##Computer Systems",
+    "imageUrl": "//a[contains(@class,'itemImage')]//img/@src",
+    "desc": "//ul[contains(@class,'featureList')]",
+    "regularPrice": "//ul//li[contains(@class,'price-was')] !! ([0-9]*\\.?[0-9]+)",
+    "dealPrice": "//ul//li[contains(@class,'price-current')][1]//strong | //li[contains(@class,'price-current')]//strong !! ([0-9]*\\.?[0-9]+)",
+    "merchant": "//a//img[contains(@class,'listStyleBrand')]//@alt",
+    "salePitch": "//ul//li[contains(@class,'price-ship')]",
+    "detailUrl": "//a[contains(@class,'itemImage')]//@href",
+    "discount": "//ul//li[contains(@class,'price-save')]//span[contains(@class,'price-save-percent')] !! ([0-9]*\\.?[0-9]+)"
+  }
+}

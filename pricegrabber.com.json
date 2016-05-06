@@ -1,0 +1,18 @@
+{
+  "name":"crawl www.pricegrabber.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.pricegrabber.com/computers/laptop/p-13/"
+  ],
+  "list_xpath":"//div[contains(@id,'product_results')]//div[contains(@class,'product')]",
+  "fields":{
+    "siteName": "##www.pricegrabber.com",
+    "title": "//div[contains(@class,'details')]//h3",
+    "category": "##computer",
+    "imageUrl": "//div[contains(@class,'prd_img')]//img/@src",
+    "dealPrice": "//div[contains(@class,'ctaPriceContainer')]//a !! ([0-9]*\\.?[0-9]+)",
+	"merchant": "//div[contains(@class,'review_merchant_container')]//a/@title",
+    "detailUrl": "//div[contains(@class,'moreLinks')]//a/@href",
+	"redirUrl":"//div[contains(@class,'ctaGrid')]//a/@href"
+  }
+}

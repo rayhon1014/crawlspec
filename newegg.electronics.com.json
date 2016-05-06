@@ -1,0 +1,21 @@
+{
+  "name":"crawl newegg.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.newegg.com/Product/ProductList.aspx?Submit=StoreIM&Depa=10"
+  ],
+  "list_xpath":"//div[contains(@class,'productList')]//div[contains(@class,'version600')]//div[contains(@class,'itemCell')]",
+  "fields":{
+    "siteName": "##www.newegg.com",
+    "title": "//span[contains(@class,'itemDescription')][1]",
+    "category": "##Electronics",
+    "imageUrl": "//a[contains(@class,'itemImage')]//img/@src",
+    "desc": "//ul[contains(@class,'featureList')]",
+    "regularPrice": "//ul//li[contains(@class,'price-was')] !! ([0-9]*\\.?[0-9]+)",
+    "dealPrice": "//ul//li[contains(@class,'price-current')][1]//strong !! ([0-9]*\\.?[0-9]+)",
+    "merchant": "//a//img[contains(@class,'listStyleBrand')]//@alt",
+    "salePitch": "//ul//li[contains(@class,'price-ship')]",
+    "detailUrl": "//a[contains(@class,'itemImage')]//@href",
+    "discount": "//ul//li[contains(@class,'price-save')]//span[contains(@class,'price-save-percent')] !! ([0-9]*\\.?[0-9]+)"
+  }
+}

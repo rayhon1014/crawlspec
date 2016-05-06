@@ -1,0 +1,18 @@
+{
+  "name":"crawl slickdeals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://slickdeals.net/?page=1"
+  ],
+  "list_xpath":"//div[contains(@class, 'fpGridBox') and contains(@class, 'grid') and contains(@class, 'frontpage')]",
+  "fields":{
+    "siteName": "##slickdeals.net",
+    "title": "//a[contains(@class, 'itemTitle')]",
+    "category": "##Electronic",
+    "imageUrl": "//div[contains(@class, 'imageContainer')]//img/@src | //div[contains(@class, 'imageContainer')]//img/@data-original",
+    "dealPrice": "//div[contains(@class, 'itemPrice')] !! \\$([0-9\\.]+)",
+    "merchant": "//a[contains(@class, 'itemStore')]",
+    "salePitch": "//div[contains(@class, 'priceInfo')]",
+    "detailUrl": "//a[contains(@class, 'itemTitle')]/@href"
+  }
+} 
