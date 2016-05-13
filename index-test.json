@@ -1,0 +1,8 @@
+{
+  "specs": ["https://raw.githubusercontent.com/mulsahu/testspac/master/bensbargains.com.json",
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/bizrate.com.json",
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/bradsdeals.com.json",
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/dealcatcher.com.json",
+            "https://raw.githubusercontent.com/mulsahu/testspac/master/dealnews.com.json"
+          ]
+}
