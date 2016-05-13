@@ -1,0 +1,17 @@
+{
+  "name":"crawl www.overstock.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.overstock.com/Electronics/Deal-Electronics,/link,/2/store.html?products=11613959&TID=TN:IMG:Electronics"
+  ],
+  "list_xpath":"//ul[contains(@id,'result-products')]//li[contains(@class,'product')]//div[contains(@class,'product-content')]",
+  "fields":{
+    "siteName": "##www.overstock.com",
+    "title": "//span[contains(@class,'pro-name')]",
+    "category": "##Electronics",
+    "imageUrl": "//div[contains(@class,'img-middle')]//img/@src",
+    "reviewNum": "//span[contains(@class,'reviewcount')] !! ([0-9]+)",
+    "dealPrice": "//span[contains(@class,'you-save')]//strong !! ([0-9]*\\.?[0-9]+)",
+    "detailUrl": "//a[contains(@class,'pro-thumb')]/@href"
+  }
+}

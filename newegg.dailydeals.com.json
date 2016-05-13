@@ -1,0 +1,22 @@
+{
+  "name":"crawl newegg.com daily deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.newegg.com/DailyDeal.aspx?name=DailyDeal&Page=1"
+  ],
+  "list_xpath":"//div[contains(@class,'version')]//div[contains(@class,'itemCell')]",
+  "fields":{
+    "siteName": "##www.newegg.com",
+    "title": "//div[contains(@class,'itemText')]//a//span[contains(@class,'itemDescription')][1]",
+    "category": "##Daily Deals",
+    "imageUrl": "//a[contains(@class,'itemImage')]//img/@src",
+    "desc": "//ul[contains(@class,'itemFeatures')]",
+    "regularPrice": "//ul[contains(@class,'price')]//li[contains(@class,'price-was')]//span !! ([0-9]*\\.?[0-9]+)",
+    "dealPrice": "//ul[contains(@class,'price')]//li[contains(@class,'price-current')] !! ([0-9]*\\.?[0-9]+)",
+    "merchant": "//a[contains(@class,'itemBrand')]//@alt",
+    "salePitch": "//ul[contains(@class,'price')]//li[contains(@class,'price-ship')]",
+    "detailUrl": "//div[contains(@class,'itemText')]//a/@href",
+	"reviewNum":"//a[contains(@class,'itemRating')] !! ([0-9]+)",
+    "discount": "//ul[contains(@class,'price')]//li[contains(@class,'price-save')]//span[contains(@class,'price-save-percent')] !! ([0-9]*\\.?[0-9]+)"
+  }
+}
