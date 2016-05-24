@@ -2,19 +2,21 @@
   "name":"crawl dealcatcher.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.dealcatcher.com/filter/1?deal_type%5B%5D=product_deals&category%5B%5D=2"
+    "https://www.dealcatcher.com/computers-office !! category= Computers and Office",
+	"https://www.dealcatcher.com/electronics  !! category= Electronics"
   ],
   "list_xpath":"//article[contains(@class, 'deal-enclosure')]",
   "fields":{
     "siteName": "##www.dealcatcher.com",
     "title": "//h3//a",
-    "category": "##Electronics Coupons and Deals",
+    "category": "$$category",
     "imageUrl": "//div[contains(@class, 'image-block')]/img/@src",
     "desc": "//div[contains(@class, 'description')]",
     "regularPrice": "//span[contains(@class, 'retail-price')] !! ([0-9]*\\.?[0-9]+)",
     "dealPrice": "//span[contains(@class, 'deal-price')] !! ([0-9]*\\.?[0-9]+)",
     "merchant": "//div[contains(@class, 'deal-in')]//a[contains(@class, 'deal-merchant')]",
     "salePitch": "//span[contains(@class, 'deal-info')]",
-    "detailUrl": "//div[contains(@class, 'deal-body')]//h3//a/@href"
+    "detailUrl": "//div[contains(@class, 'deal-body')]//h3//a/@href",
+    "postTime": "//time/@datetime"
   }
 }
