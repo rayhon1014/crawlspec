@@ -2,16 +2,28 @@
   "name":"crawl www.overstock.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.overstock.com/Electronics/Deal-Electronics,/link,/2/store.html?products=11613959&TID=TN:IMG:Electronics"
+	"http://www.overstock.com/Electronics/Computers-Tablets/473/dept.html?TID=TN:ELEC:Comp !! category=Computers and Teblets",
+	"http://www.overstock.com/Electronics/Televisions/2171/cat.html?TID=TN:ELEC:TvVideo !! category=TV",
+	"http://www.overstock.com/Electronics/Home-Theater-Audio/5/dept.html?TID=TN:ELEC:HomeTheaterAudio !! category=Home Theater and Audio",
+	"http://www.overstock.com/Electronics/Cameras-Camcorders/6/dept.html?TID=TN:ELEC:CameraCamcord !! category=Cameras",
+	"http://www.overstock.com/Electronics/Computer-Hardware-Software/7/dept.html?TID=TN:ELEC:HardSoft !! category=Computer Hardware and Software",
+	"http://www.overstock.com/Electronics/Home-Automation-Security/475/dept.html?TID=TN:ELEC:HomeAutoSur !! category=Home Automation",
+	"http://www.overstock.com/Electronics/Wearable-Technology/478/dept.html?TID=TN:ELEC:WearableTech !! category=Wearable Technology",
+	"http://www.overstock.com/Electronics/GPS-Navigation/474/dept.html?TID=TN:ELEC:GPSNav !! category=GPS Navigation",
+	"http://www.overstock.com/Electronics/Printers-Scanners/214/dept.html?TID=TN:ELEC:PrintScan !! category=Printer and Scanner",
+	"http://www.overstock.com/Electronics/Monitors-Displays/215/dept.html?TID=TN:ELEC:MonitorDisplays !! category=Monitors and Displays",
+	"http://www.overstock.com/Electronics/Cell-Phones-Accessories/51/dept.html?TID=TN:ELEC:CellAccDep !! category=Cell Phones",
+	"http://www.overstock.com/search?taxonomy=sto2&sortOption=New+Arrivals&TID=TN:ELEC:NEWARRIVALS !! category=New Arrivals"
   ],
   "list_xpath":"//ul[contains(@id,'result-products')]//li[contains(@class,'product')]//div[contains(@class,'product-content')]",
   "fields":{
     "siteName": "##www.overstock.com",
     "title": "//span[contains(@class,'pro-name')]",
-    "category": "##Electronics",
+    "category": "$$category",
     "imageUrl": "//div[contains(@class,'img-middle')]//img/@src",
     "reviewNum": "//span[contains(@class,'reviewcount')] !! ([0-9]+)",
     "dealPrice": "//span[contains(@class,'you-save')]//strong !! ([0-9]*\\.?[0-9]+)",
-    "detailUrl": "//a[contains(@class,'pro-thumb')]/@href"
+    "detailUrl": "//a[contains(@class,'pro-thumb')]/@href",
+    "regularPrice":"//span[contains(@class,'reference-price')]"
   }
 }
