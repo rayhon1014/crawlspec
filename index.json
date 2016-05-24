@@ -1,22 +1,6 @@
 {
-  "specs": ["https://raw.githubusercontent.com/mulsahu/testspac/master/bensbargains.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/bizrate.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/bradsdeals.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/dealcatcher.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/dealnews.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/deals.ebay.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/fatwallet.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/groupon.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/newegg.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/newegg.computers.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/newegg.electronics.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/nextag.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/pricegrabber.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/pronto.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/retrevo.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/shoplocal.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/slickdeals.net.forum.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/slickdeals.net.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/techbargains.com.json"
+  "specs": ["https://raw.githubusercontent.com/rayhon1014/crawlspec/master/groupon.com.json",
+            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/overstock.com.json",
+            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/dealcatcher.com.json"
           ]
 }
