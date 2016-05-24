@@ -1,0 +1,20 @@
+{
+  "name":"crawl woot.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://deals.woot.com/deals.rss/top?page=##1-20##"
+    
+  ],
+  "list_xpath":"//item",
+  "fields":{
+    "siteName": "##deals.woot.com",
+    "title": "//title",
+    "category": "//category",
+    "dealPrice": "//title !! \\$([0-9]*\\.?[0-9]+)[^0-9]*$",
+    "detailUrl": "/link",
+    "regularPrice": "//description !! (?:Original|Regular) Price: \\$([0-9]*\\.?[0-9]+)",
+    "desc": "//description",
+    "imageUrl": "//content[@width~=[3-9][0-9][0-9]]/@url"
+    
+  }
+}
