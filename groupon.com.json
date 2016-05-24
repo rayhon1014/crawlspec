@@ -2,20 +2,19 @@
   "name":"crawl groupon.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "https://www.groupon.com/goods/electronics"
+    "https://www.groupon.com/goods/electronics?page=##1-20## !! category= Electronics"
   ],
   "list_xpath":"//figure[contains(@class, 'deal-card')]",
   "fields":{
     "siteName": "##www.groupon.com",
     "title": "//p[contains(@class, 'deal-title')]",
-    "category": "##electronics",
+    "category": "$$category",
     "imageUrl": "//a[contains(@class,'deal-tile-inner')]//img/@data-original",
     "desc": "//figcaption//div[contains(@class, 'description')]/p",
     "regularPrice": "//figcaption//p[contains(@class, 'deal-price')]//s[contains(@class, 'original-price')] !! ([0-9]*\\.?[0-9]+)",
     "dealPrice": "//figcaption//p[contains(@class, 'deal-price')]//s[contains(@class, 'discount-price')] !! ([0-9]*\\.?[0-9]+)",
     "detailUrl": "//a[contains(@class, 'deal-tile-inner')]/@href",
     "reviewNum": "//div[contains(@class, 'rating-count')]  !! ([0-9]+)",
-    "likeNum": "//div[contains(@class, 'rating-count')]  !! ([0-9]+)",
     "saleNum":"//p[contains(@class, 'quantity-bought')] !! ([,0-9]+)"
   }
 }
