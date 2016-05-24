@@ -1,0 +1,21 @@
+{
+  "name":"crawl woot.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://electronics.woot.com/plus/4k-tvs-2?ref=el_cnt_wp_1  !! category=electronics | subcategory=TV",
+    "http://electronics.woot.com/plus/glass-screen-protectors-1?ref=el_cnt_wp_2   !! category=electronics | subcategory=Screen Protector",
+    "http://electronics.woot.com/plus/camera-accessories?ref=el_cnt_wp_4 !! category=electronics | subcategory=Camera Accessories"
+    
+  ],
+  "list_xpath":"//section[contains(@class, 'offer-list')]/ul/li",
+  "fields":{
+    "siteName": "##electronics.woot.com",
+    "title": "//div[contains(@class, 'info')]//h2",
+    "category": "##electronics",
+    "regularPrice": "//div[contains(@class, 'info')]/span[contains(@class, 'list-price')]",
+    "dealPrice": "//div[contains(@class, 'info')]/span[contains(@class, 'price')]",
+    "detailUrl": "//a/@href",
+    "imageUrl": "//a//img/@src"
+    
+  }
+}
