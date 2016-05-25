@@ -1,0 +1,24 @@
+{
+  "name":"crawl geek.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://geek.bdt.pcmag.com/deals/laptops/ !! category=laptop",
+    "http://geek.bdt.pcmag.com/deals/hdtvs/ !! category=hdtv",
+    "http://geek.bdt.pcmag.com/deals/electronics/ !! category=electronics",
+    "http://geek.bdt.pcmag.com/deals/gaming/ !! category=gaming",
+    "http://geek.bdt.pcmag.com/deals/desktops/ !! category=desktops",
+    "http://geek.bdt.pcmag.com/deals/cameradeals/ || category=camrea"
+    
+  ],
+  "list_xpath":"//div[contains(@class,'deal')]",
+  "fields":{
+    "siteName": "##www.thinkgeek.com",
+    "title": "//div[contains(@class,'column-title')]//h3[contains(@class,'title')]/a",
+    "dealPrice": "//div[contains(@class,'column-info')]//div[contains(@class,'FinalPrice')]",
+    "detailUrl": "//div[contains(@class,'column-title')]//h3[contains(@class,'title')]/a/@href",
+    "regularPrice": "//span[contains(@class,'ListPrice')]",
+    "imageUrl": "//img[contains(@class,'dealImage')]/@src",
+    "desc": "//span[contains(@class,'description-inner')]"
+    
+  }
+}
