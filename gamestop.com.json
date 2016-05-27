@@ -1,0 +1,19 @@
+{
+  "name":"crawl gamestop.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://www.gamestop.com/deals"
+    
+  ],
+  "list_xpath":"//div[contains(@class,'product_row')]//div[@class~=product.*sku.*]",
+  "fields":{
+    "siteName": "##www.gamestop.com",
+    "title": "//h3[contains(@class,'product_title')]/a",
+    "category": "##game",
+    "dealPrice": "//p[contains(@class,'price')]",
+    "detailUrl": "//div[contains(@class,'product_image')]/a/@href",
+    "regularPrice": "//p[contains(@class,'original_price')]",
+    "imageUrl": "//div[contains(@class,'product_image')]//img/@src"
+    
+  }
+}
