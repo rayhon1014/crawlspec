@@ -1,6 +1,9 @@
 {
   "specs": ["https://raw.githubusercontent.com/rayhon1014/crawlspec/master/groupon.com.json",
             "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/overstock.com.json",
-            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/dealcatcher.com.json"
+            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/dealcatcher.com.json",
+            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/thinkgeek.com.json",
+            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/geek.com.json",
+            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/gamestop.com.json"
           ]
 }
