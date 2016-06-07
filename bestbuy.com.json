@@ -1,0 +1,21 @@
+{
+  "name":"crawl bestbuy.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "http://deals.bestbuy.com/api/search/insert/ZG1?&include_alt=true&summaries=true&size=18&calc_stats=false&min_stars=4&sub_cat=Computer%20Accessories%20%26%20Peripherals,Laptops,iPad%20%26%20Tablet%20Accessories,Tablets,Monitors"
+  ],
+  "list_path":"$.hits",
+  "path_type":"json",
+  "fields":{
+    "siteName": "##bestbuy.com",
+    "title": "insert.name",
+    "category": "product_info.sub_category",
+    "regularPrice": "insert.pricing.price",
+    "dealPrice": "insert.pricing.ad_price",
+    "desc": "product_info.description",
+    "discount": "insert.pricing.savings",
+    "detailUrl": "product_info.dotcom_pdp_url",
+        "imageUrl": "insert.image_link_A_absolute_path"
+
+  }
+}
