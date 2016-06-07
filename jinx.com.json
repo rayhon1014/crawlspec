@@ -1,0 +1,19 @@
+{
+  "name":"jinx.com deals",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "https://www.jinx.com/list/gen/onsale/"
+  ],
+  "list_path":"$.Products[?(@.IsOnSale == true)]",
+  "path_type":"json",
+  "fields":{
+    "siteName": "##www.jinx.com",
+    "title": "ProductPageTitle",
+    "category": "##games",
+    "imageUrl": "DetailsImagePath",
+    "desc": "Description",
+    "regularPrice": "PriceRange",
+    "dealPrice": "SalePriceRange",
+    "detailUrl": "UrlDetailsPage"
+  }
+}
