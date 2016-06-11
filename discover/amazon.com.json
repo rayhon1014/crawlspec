@@ -1,13 +1,7 @@
 {
-  "name": "amazon.com",
-  "model": "com.fp.ecommerce.model.Deal",
+  "name": "product:amazon.com",
+  "model": "com.fp.ecommerce.model.Product",
   "fields": {
-    "siteName": "##deals.woot.com",
-    "title": "span[class*=fn]",
-    "category": "li[class*=first] a[class*=category]",
-    "dealPrice": "span[class*=amount]",
-    "finalUrl": "div[class~=postInfo.*] h3 a/@href",
-    "desc": "div[class*=description] p",
-    "likeNum": "span[class*=count]"
+
   }
 }
