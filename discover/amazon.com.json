@@ -2,6 +2,11 @@
   "name": "product:amazon.com",
   "model": "com.fp.ecommerce.model.Product",
   "fields": {
-
+    "sharedCountText" : "[share_count_text]:contains(Shares)",
+    "isAmazonPrime": "[id=fast-track-message]:contains(Two-day Shipping)",
+    "amazonSalesRankText" : "span :matches(#(\\d+) in ?+)",
+    "regularPrice" : "[class=a-text-strike]:contains($)",
+    "discountPrice": "[id=priceblock_ourprice]",
+    "isFreeShipping": "[id=ourprice_shippingmessage]:contains(FREE Shipping)"
   }
 }
