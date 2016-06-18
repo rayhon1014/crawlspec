@@ -3,7 +3,7 @@
   "model": "com.fp.ecommerce.model.Product",
   "fields": {
     "sharedCount" : "[class=share_count_text]:contains(Shares)",
-    "isAmazonPrime": "[id=fast-track-message]:contains(Two-day Shipping)|[id=fast-track-message]:contains(Same-Day Delivery)",
+    "isAmazonPrime": "[id=fast-track-message]:contains(Two-day Shipping),[id=fast-track-message]:contains(Same-Day Delivery)",
     "amazonSalesRankText" : "span :matches(#(\\d+) in ?+)",
     "regularPrice" : "[class=a-text-strike]:contains($)",
     "discountPrice": "[id=priceblock_ourprice]",
