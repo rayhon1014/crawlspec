@@ -1,0 +1,10 @@
+{
+  "name": "product:groupon.com",
+  "model": "com.fp.ecommerce.model.Product",
+  "fields": {
+    "title" : "h1[id=deal-title]",
+    "regularPrice": "[class=discount-value]",
+    "saleNum" : "[class~=qty-bought]",
+    "imgUrl" : "img[class~=featured-image]/@src"
+  }
+}

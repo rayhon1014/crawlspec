@@ -1,0 +1,11 @@
+{
+  "name": "product:tanga.com",
+  "model": "com.fp.ecommerce.model.Product",
+  "fields": {
+    "regularPrice": "div[class=buy] [class~=original-price]",
+    "discountPrice": "div[class=buy] [class=price]",
+    "reviewCount": "div[class=customer-review] [class=review]",
+    "saleNum": "div[class=limited-quantity] [class=text]",
+    "imgUrl": "div[class=images-full-size] a[class=full-size-image active]/@href"
+  }
+}

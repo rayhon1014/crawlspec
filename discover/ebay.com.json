@@ -1,0 +1,8 @@
+{
+  "name": "product:ebay.com",
+  "model": "com.fp.ecommerce.model.Product",
+  "fields": {
+    "saleNum" : "span[class=w2b-sgl]",
+    "isFreeShipping" : "span[id=fshippingCost]:contains(FREE)"
+  }
+}

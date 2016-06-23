@@ -1,0 +1,9 @@
+{
+  "name": "product:newegg.com",
+  "model": "com.fp.ecommerce.model.Product",
+  "fields": {
+    "discountPrice": "[class=price-current]",
+    "regularPrice": "[class=price-was]",
+    "imgUrl" : "img[id~=mainSlide_]/@src"
+  }
+}

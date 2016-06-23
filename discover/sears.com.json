@@ -1,0 +1,10 @@
+{
+  "name": "product:sears.com",
+  "model": "com.fp.ecommerce.model.Product",
+  "fields": {
+    "title" : "h1[class~=product-title]",
+    "imgUrl": "img[class=main-image]/@src",
+    "regularPrice":"[class~=product-price-regular] [class=price-wrapper]",
+    "discountPrice":"[class~=redSalePrice] [class=price-wrapper]"
+  }
+}

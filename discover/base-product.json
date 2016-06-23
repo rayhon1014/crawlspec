@@ -2,14 +2,15 @@
   "name": "product:base",
   "model": "com.fp.ecommerce.model.Product",
   "fields": {
-    "title": "[property=og:title]/@content,meta[name=title]/@content,[name=twitter:title]/@content",
+    "title": "[property=og:title]/@content,meta[name=title]/@content,[itemprop=name],[name=twitter:title]/@content",
     "description": "meta[name=description]/@content,[property=og:description]/@content,[itemprop!=reviews] > [itemprop=description],[name=twitter:description]/@content",
     "discountPrice": "[itemprop=price]/@content,[property=og:price:amount]/@content",
     "currency": "[itemprop=priceCurrency]/@content,[property=og:price:currency]/@content",
     "brand": "[itemprop=brand] > [itemprop=name]/@content",
-    "rating": "[itemprop!=reviewRating] > [itemprop=ratingValue]",
+    "rating": "[itemprop!=reviewRating] [itemprop=ratingValue]",
+    "reviewCount": "[itemprop=ratingCount]/@content,[itemprop=ratingCount],[itemprop=reviewCount]",
     "siteName": "[property=og:site_name]/@content",
-    "imageUrl": "[property=og:image]/@content,[name=twitter:image]/@content,[href*=pinterest.com/pin]/@href[url|media]",
+    "imageUrl": "[property=og:image]/@content,[itemprop=image]/@src,[name=twitter:image]/@content,[href*=pinterest.com/pin]/@href[url|media]",
     "datePublished": "[itemprop=datePublished]",
     "availability": "[itemprop=availability]/@content,[property=og:availability]/@content",
     "productId": "[itemprop=og:upc]/@content,[itemprop=sku]/@content"
