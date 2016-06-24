@@ -1,5 +1,5 @@
 {
-  "name":"crawl woot.com deals",
+  "name":"woot.com forum deals for geek",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
     "index://deals.woot.com/ !! urlPath=div[class~=.*postInfo.*] h3 a/@href"

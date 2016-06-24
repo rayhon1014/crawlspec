@@ -1,5 +1,5 @@
 {
-  "name":"slickdeals forum for geek",
+  "name":"slickdeals.net forum deals for geek",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
     "index:http://slickdeals.net/forums/forumdisplay.php?f=9&daysprune=7&intagid%5B%5D=9&intagid%5B%5D=309&intagid%5B%5D=40&order=desc&pp=80&sort=threadstarted&vote=100 !! urlPath=tr[id~=sdpostrow] div[class=threadtitleline] a/@href"
