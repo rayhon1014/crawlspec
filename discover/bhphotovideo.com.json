@@ -1,0 +1,8 @@
+{
+  "name": "product:bhphotovideo.com",
+  "model": "com.fp.ecommerce.model.Product",
+  "fields": {
+    "imgUrl": "img[class=mainImage]/@src",
+    "regularPrice": "div[class=pPrice] p"
+  }
+}
