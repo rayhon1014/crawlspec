@@ -10,8 +10,8 @@
     "category": "[class~=tag_category] a",
     "finalUrl": "a[class~=button success]/@href",
     "discountPrice": "div[id=dealPrice]",
-    "likeNum": "div[class=dealScore] [role=thread.score]",
-    "reviewNum": "div[id=dealComments] label",
+    "numOfLike": "div[class=dealScore] [role=thread.score]",
+    "numOfReview": "div[id=dealComments] label",
     "imgUrl": "img[id=mainImage]/@src"
   }
 }

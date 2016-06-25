@@ -8,7 +8,7 @@
     "currency": "[itemprop=priceCurrency]/@content,[property=og:price:currency]/@content",
     "brand": "[itemprop=brand] > [itemprop=name]/@content",
     "rating": "[itemprop!=reviewRating] [itemprop=ratingValue]",
-    "reviewCount": "[itemprop=ratingCount]/@content,[itemprop=ratingCount],[itemprop=reviewCount]",
+    "numOfReview": "[itemprop=ratingCount]/@content,[itemprop=ratingCount],[itemprop=reviewCount]",
     "siteName": "[property=og:site_name]/@content",
     "imageUrl": "[property=og:image]/@content,[itemprop=image]/@src,[name=twitter:image]/@content,[href*=pinterest.com/pin]/@href[url|media]",
     "datePublished": "[itemprop=datePublished]",

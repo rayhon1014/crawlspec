@@ -13,6 +13,6 @@
     "dealPrice": "span[class*=amount]",
     "finalUrl": "div[class~=postInfo.*] h3 a/@href",
     "desc": "div[class*=description] p",
-    "likeNum": "span[class*=count]"
+    "numOfLike": "span[class*=count]"
   }
 }
