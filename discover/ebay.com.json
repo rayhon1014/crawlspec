@@ -3,6 +3,7 @@
   "model": "com.fp.ecommerce.model.Product",
   "fields": {
     "saleNum" : "span[class=w2b-sgl]",
-    "isFreeShipping" : "span[id=fshippingCost]:contains(FREE)"
+    "isFreeShipping" : "span[id=fshippingCost]:contains(FREE)",
+    "isAvailable" : "[alt~=^(Item Sold)]"
   }
 }
