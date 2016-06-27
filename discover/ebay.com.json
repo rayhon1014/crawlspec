@@ -4,6 +4,6 @@
   "fields": {
     "saleNum" : "span[class=w2b-sgl]",
     "isFreeShipping" : "span[id=fshippingCost]:contains(FREE)",
-    "isAvailable" : "[alt~=^(Item Sold)]"
+    "isSold" : "[alt~=Item Sold]"
   }
 }

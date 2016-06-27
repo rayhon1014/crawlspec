@@ -12,7 +12,7 @@
     "siteName": "[property=og:site_name]/@content",
     "imageUrl": "[property=og:image]/@content,[itemprop=image]/@src,[name=twitter:image]/@content,[href*=pinterest.com/pin]/@href[url|media]",
     "datePublished": "[itemprop=datePublished]",
-    "isAvailable": "[itemprop=availability][content~=InStock]/@content,[property=og:availability][content~=instock]/@content",
+    "isSold": "[itemprop=availability][content~=^(InStock)]/@content,[property=og:availability][content~=^(instock)]/@content",
     "productId": "[itemprop=og:upc]/@content,[itemprop=sku]/@content"
   }
 }
