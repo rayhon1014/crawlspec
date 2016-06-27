@@ -10,7 +10,7 @@
     "isFreeShipping": "[id=ourprice_shippingmessage]:contains(FREE Shipping)",
     "rating": "[id=reviewStarsLinkedCustomerReviews]>[class~=a-icon-star] :contains(out of 5 stars) !! ([0-9\\.]+) out of 5 stars",
     "numOfReview" : "[id=acrCustomerReviewText]:contains(customer reviews)",
-    "isSold" : "[id=availability] not(:contains(In Stock))",
+    "isSold" : "[id=availability]:not(:contains(In Stock))",
     "imageUrl": "[class=imgTagWrapper] > img/@data-old-hires"
   }
 }
