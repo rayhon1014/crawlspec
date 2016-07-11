@@ -13,8 +13,8 @@
     "desc": "//igcaption//div[contains(@class, 'description')]/p",
     "regularPrice": "//igcaption//p[contains(@class, 'deal-price')]//s[contains(@class, 'original-price')] !! ([0-9]*\\.?[0-9]+)",
     "dealPrice": "//igcaption//p[contains(@class, 'deal-price')]//s[contains(@class, 'discount-price')] !! ([0-9]*\\.?[0-9]+)",
-    "detailUrl": "//a[contains(@class, 'deal-tile-inner')]/@ref",
-    "finalUrl": "//a[contains(@class, 'deal-tile-inner')]/@ref",
+    "detailUrl": "//a[contains(@class, 'deal-tile-inner')]/@href",
+    "finalUrl": "//a[contains(@class, 'deal-tile-inner')]/@href",
     "reviewNum": "//iv[contains(@class, 'rating-count')]  !! ([0-9]+)",
     "saleNum":"//p[contains(@class, 'uantity-bought')] !! ([,0-9]+)"
   }
