@@ -1,10 +1,4 @@
 {
-  "specs": ["https://raw.githubusercontent.com/mulsahu/testspac/master/overstock.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/dealcatcher.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/dealnews.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/deals.ebay.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/newegg.computers.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/newegg.electronics.com.json",
-            "https://raw.githubusercontent.com/mulsahu/testspac/master/techbargains.com.json"
+  "specs": ["https://raw.githubusercontent.com/mulsahu/testspac/master/dealcatcher.com.json"
           ]
 }
