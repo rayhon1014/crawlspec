@@ -14,6 +14,7 @@
     "regularPrice": "//figcaption//p[contains(@class, 'deal-price')]//s[contains(@class, 'original-price')] !! ([0-9]*\\.?[0-9]+)",
     "dealPrice": "//figcaption//p[contains(@class, 'deal-price')]//s[contains(@class, 'discount-price')] !! ([0-9]*\\.?[0-9]+)",
     "detailUrl": "//a[contains(@class, 'deal-tile-inner')]/@href",
+    "finalUrl": "//a[contains(@class, 'deal-tile-inner')]/@href",
     "reviewNum": "//div[contains(@class, 'rating-count')]  !! ([0-9]+)",
     "saleNum":"//p[contains(@class, 'quantity-bought')] !! ([,0-9]+)"
   }
