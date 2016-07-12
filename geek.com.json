@@ -13,6 +13,7 @@
   "list_xpath":"//div[contains(@class,'deal')]",
   "fields":{
     "siteName": "##www.geek.com",
+    "category": "$$category",
     "title": "//div[contains(@class,'column-title')]//h3[contains(@class,'title')]/a",
     "dealPrice": "//div[contains(@class,'column-info')]//div[contains(@class,'FinalPrice')]",
     "detailUrl": "//div[contains(@class,'column-title')]//h3[contains(@class,'title')]/a/@href",
