@@ -17,6 +17,7 @@
     "title": "//div[contains(@class,'column-title')]//h3[contains(@class,'title')]/a",
     "dealPrice": "//div[contains(@class,'column-info')]//div[contains(@class,'FinalPrice')]",
     "detailUrl": "//div[contains(@class,'column-title')]//h3[contains(@class,'title')]/a/@href",
+    "finalUrl": "//div[contains(@class,'column-title')]//h3[contains(@class,'title')]/a/@href",
     "regularPrice": "//span[contains(@class,'ListPrice')]",
     "imageUrl": "//img[contains(@class,'dealImage')]/@src",
     "desc": "//span[contains(@class,'description-inner')]"
