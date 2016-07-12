@@ -14,6 +14,7 @@
     "desc": "Description",
     "regularPrice": "PriceRange",
     "dealPrice": "SalePriceRange",
-    "detailUrl": "UrlDetailsPage"
+    "detailUrl": "UrlDetailsPage",
+    "finalUrl": "UrlDetailsPage"
   }
 }
