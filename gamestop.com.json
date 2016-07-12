@@ -12,6 +12,7 @@
     "category": "##game",
     "dealPrice": "//p[contains(@class,'price')]",
     "detailUrl": "//div[contains(@class,'product_image')]/a/@href",
+    "finalUrl": "//div[contains(@class,'product_image')]/a/@href",
     "regularPrice": "//p[contains(@class,'original_price')]",
     "imageUrl": "//div[contains(@class,'product_image')]//img/@src"
     
