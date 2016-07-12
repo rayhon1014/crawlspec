@@ -12,6 +12,7 @@
     "category": "##geek",
     "dealPrice": "/@data-price",
     "detailUrl": "/a/@href",
+    "finalUrl": "/a/@href",
     "regularPrice": "//span[contains(@class,'sale-was-price')]/s",
     "imageUrl": "//a//img/@data-original"
     
