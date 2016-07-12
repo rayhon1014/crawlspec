@@ -7,7 +7,7 @@
     "http://geek.bdt.pcmag.com/deals/electronics/ !! category=electronics",
     "http://geek.bdt.pcmag.com/deals/gaming/ !! category=gaming",
     "http://geek.bdt.pcmag.com/deals/desktops/ !! category=desktops",
-    "http://geek.bdt.pcmag.com/deals/cameradeals/ || category=camrea"
+    "http://geek.bdt.pcmag.com/deals/cameradeals/ !! category=camrea"
     
   ],
   "list_xpath":"//div[contains(@class,'deal')]",
