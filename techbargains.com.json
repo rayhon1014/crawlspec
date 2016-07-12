@@ -15,6 +15,7 @@
     "dealPrice": "//div[contains(@class,'deal-price_wrapper')]//p[contains(@class,'final-price')]//span !! ([0-9]*\\.?[0-9]+)",
     "discount": "//div[contains(@class,'deal-price_wrapper')]//p[contains(@class,'list-price')]//span[2] !! ([0-9]*\\.?[0-9]+)",
     "detailUrl": "//div[contains(@class,'deal-title')]//a/@href",
+    "finalUrl": "//div[contains(@class,'deal-title')]//a/@href",
     "salePitch": "//div[contains(@class,'deal-price_wrapper')]//p[contains(@class,'shipping')]",
     "redirUrl": "//div[contains(@class,'deal-btn_wrapper')]//a/@href"
   }
