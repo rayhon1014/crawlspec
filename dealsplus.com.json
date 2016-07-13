@@ -2,7 +2,7 @@
   "name":"dealsplus.com forum deals for geek",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "index:https://www.dealsplus.com/All-Electronics_deals?page=1 !! category=Electronics | urlPath=div[class~=item itemTile]:has([class=likesCount]:contains(Likes)) div[class~=itemImg] a/@href"
+    "index:https://www.dealsplus.com/All-Electronics_deals?page=1 !! category=Electronics | contentPath=json:html |urlPath=div[class~=item itemTile]:has([class=likesCount]:contains(Likes)) div[class~=itemImg] a/@href"
 	
   ],
   "listPath" : "div[class=itemHolder]",
