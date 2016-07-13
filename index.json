@@ -4,6 +4,8 @@
             "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/geek.com.json",
             "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/gamestop.com.json",
             "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/jinx.com.json",
-            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/techbargains.com.json"
+            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/techbargains.com.json",
+            "https://github.com/rayhon1014/crawlspec/blob/master/electronics.woot.com.json",
+            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/slickdeals.net.forum.json"
           ]
 }
