@@ -17,7 +17,6 @@
     "merchant": "//div[contains(@class, 'deal-in')]//a[contains(@class, 'deal-merchant')]",
     "salePitch": "//span[contains(@class, 'deal-info')]",
     "detailUrl": "//div[contains(@class, 'deal-body')]//h3//a/@href",
-    "finalUrl": "//div[contains(@class, 'deal-body')]//h3//a/@href",
     "postTime": "//time/@datetime"
   }
 }
