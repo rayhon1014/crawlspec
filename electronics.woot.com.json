@@ -15,6 +15,7 @@
     "regularPrice": "//div[contains(@class, 'info')]/span[contains(@class, 'list-price')]",
     "dealPrice": "//div[contains(@class, 'info')]/span[contains(@class, 'price')]",
     "detailUrl": "//a/@href",
+    "finalUrl": "//a/@href",
     "imageUrl": "//a//img/@src"
     
   }
