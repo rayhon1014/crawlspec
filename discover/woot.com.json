@@ -2,7 +2,7 @@
   "name": "product:woot.com",
   "model": "com.fp.ecommerce.model.Product",
   "fields": {
-    "regularPrice": "[class=price-exact]",
+    "regularPrice": "[class=price]",
     "discountPrice": "[class=discount] [class=list-price]",
     "imgUrl": "div[id=gallery] div[class=photo]/@data-zoom-url"
   }
