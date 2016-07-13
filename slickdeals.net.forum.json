@@ -6,7 +6,7 @@
   ],
   "list_xpath":"//table[contains(@id, 'threadslist')]//tr[contains(@id, 'sdpostrow')]",
   "fields":{
-    "siteName": "##slickdeals.net",
+    "siteName": "##www.slickdeals.net",
     "title": "//div[contains(@class, 'threadtitleline')]//a",
     "category": "//td[contains(@class, 'alt2') and contains(@class, 'tlv3_cat')]//a",
     "score": "//td[contains(@id,'td_threadtitle')]//div[contains(@class, 'smallfont')]//span//img[contains(@class, 'concat-thumbs')]/@alt !! Score: ([0-9]+)",
