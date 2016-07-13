@@ -13,7 +13,7 @@
     "likeNum": "//td//div[contains(@class, 'smallfont')]//span//img[contains(@class, 'concat-thumbs')]/@alt !! Votes: ([0-9]+)",
     "reviewNum": "//td[5]//a",
     "desc": "//td[3]/@title",
-    "detailUrl": "//div[contains(@class, 'threadtitleline')]//a",
-    "finalUrl": "//div[contains(@class, 'threadtitleline')]//a"
+    "detailUrl": "//div[contains(@class, 'threadtitleline')]//a/@href",
+    "finalUrl": "//div[contains(@class, 'threadtitleline')]//a/@href"
   }
 } 
