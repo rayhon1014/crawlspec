@@ -5,6 +5,7 @@
     "index:https://www.dealsplus.com/All-Electronics_deals?page=1 !! category=Electronics | contentPath=json:html | urlPath=div[class~=item itemTile]:has([class=likesCount]:contains(Likes)) div[class~=itemImg] a/@href"
 
   ],
+  "list_path":"div[contains(@class,'itemHolder')]",
   "fields":{
     "siteName": "##dealsplus.com",
     "title": "h1",
