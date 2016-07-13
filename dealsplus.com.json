@@ -3,17 +3,18 @@
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
     "index:https://www.dealsplus.com/All-Electronics_deals?page=1 !! category=Electronics | contentPath=json:html | urlPath=div[class~=item itemTile]:has([class=likesCount]:contains(Likes)) div[class~=itemImg] a/@href"
-
+	
   ],
-  "list_path":"div[contains(@class,'itemHolder')]",
+  "listPath" : "div[class=itemHolder]",
   "fields":{
     "siteName": "##dealsplus.com",
-    "title": "h1",
+    "title": "div[class=itemTitle]",
     "category": "$$category",
-    "dealPrice": "div[class=dealPrice]",
+    "dealPrice": "div[class=itemSavings]",
     "finalUrl": "div[id=mainImage] a[href~=/go/rb]/@href",
     "numOfLike": "div[class=voteUpCount]/@data-vote-up-count",
     "desc": "div[class=howToContent]",
     "regularPrice": "div[class=listPrice] > span"
   }
 }
+
