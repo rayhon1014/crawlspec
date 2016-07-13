@@ -1,3 +1,4 @@
 {
-  "specs": ["https://raw.githubusercontent.com/rayhon1014/crawlspec/master/dealsplus.com.json"]
+  "specs": ["https://raw.githubusercontent.com/rayhon1014/crawlspec/master/deals.woot.com.json",
+  "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/slickdeals.net.forum.json"]
 }
