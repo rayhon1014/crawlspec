@@ -2,7 +2,9 @@
   "name":"crawl slickdeals forum",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://slickdeals.net/forums/forumdisplay.php?f=9&page=##1-8##&rp=2&daysprune=14&intagid%5B%5D=9&intagid%5B%5D=146&intagid%5B%5D=40&intagid%5B%5D=309&order=desc&sort=lastpost&vote=6&pp=80"
+    "http://slickdeals.net/forums/forumdisplay.php?f=9&page=##1-8##&rp=2&daysprune=14&intagid%5B%5D=9&intagid%5B%5D=146&intagid%5B%5D=40&intagid%5B%5D=309&order=desc&sort=lastpost&vote=6&pp=80",
+    "http://slickdeals.net/forums/forumdisplay.php?f=9&page=##1-51##&rtif=8929227&order=desc&sort=lastpost"
+    
   ],
   "list_xpath":"//table[contains(@id, 'threadslist')]//tr[contains(@id, 'sdpostrow')]",
   "fields":{
