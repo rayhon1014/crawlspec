@@ -1,3 +1,3 @@
 {
-  "specs": ["https://github.com/rayhon1014/crawlspec/blob/master/discover/woot.com.json"]
+  "specs": ["https://raw.githubusercontent.com/rayhon1014/crawlspec/master/deals.woot.com.json"]
 }
