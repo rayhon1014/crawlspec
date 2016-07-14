@@ -2,7 +2,7 @@
   "name": "product:slickdeals.com",
   "model": "com.fp.ecommerce.model.Product",
   "fields": {
-    "regularPrice": "div[class=box] div[id=dealPrice]",
+    "regularPrice": "[id=dealPrice]",
     "imgUrl": "div[class=mainImageContainer] > img/@src"
   }
 }
