@@ -11,6 +11,7 @@
     "title": "span[class*=fn]",
     "category": "li[class*=first] a[class*=category]",
     "dealPrice": "span[class*=amount]",
+    "finalUrl": "div[class~=postInfo.*] h3 a/@href",
     "imageUrl": "div[class~=postInfo.*] a > img/@src",
     "desc": "div[class*=description] p",
     "numOfLike": "span[class*=count]"
