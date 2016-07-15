@@ -10,6 +10,7 @@
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/sears.com.json",
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/tanga.com.json",
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/walmart.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/woot.com.json"
+    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/woot.com.json",
+    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/staples.com.json"
   ]
 }
