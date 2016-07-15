@@ -1,1 +1,8 @@
+{
+  "name": "product:staples.com",
+  "model": "com.fp.ecommerce.model.Product",
+  "fields": {
+    "imageUrl": "[class=imgTagWrapper] > img/@data-old-hires"
+  }
+}
 
