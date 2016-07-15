@@ -6,7 +6,7 @@
 
   ],
   "fields":{
-    "siteName": "##dealsplus.com",
+    "siteName": "##www.dealsplus.com",
     "title": "h1",
     "category": "$$category",
     "dealPrice": "div[class=dealPrice]",
