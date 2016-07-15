@@ -11,7 +11,6 @@
     "category": "$$category",
     "dealPrice": "div[class=dealPrice]",
     "finalUrl": "div[id=mainImage] a[href~=/go/rb]/@href",
-    "imageUrl": "div[id=mainImage] a > img/@href",
     "numOfLike": "div[class=voteUpCount]/@data-vote-up-count",
     "desc": "div[class=howToContent]",
     "regularPrice": "div[class=listPrice] > span"
