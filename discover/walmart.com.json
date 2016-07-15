@@ -2,6 +2,6 @@
   "name": "product:walmart.com",
   "model": "com.fp.ecommerce.model.Product",
   "fields": {
-    "imageUrl": "[class=product-image-vp-subimg] > img[itemprop=image]/@src"
+    "imageUrl": "img[itemprop=image]/@src"
   }
 }
