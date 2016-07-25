@@ -2,7 +2,7 @@
   "name":"woot.com forum deals for geek",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "index:http://deals.woot.com/?page=##1-3## !! urlPath=div[class~=.*postInfo.*] h3 a/@href"
+    "index:http://deals.woot.com/?page=##1-10## !! urlPath=div[class~=.*postInfo.*] h3 a/@href"
     
   ],
   "list_path":"div[class=primaryContent]",
