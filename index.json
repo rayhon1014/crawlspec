@@ -1,10 +1,7 @@
 {
-  "specs": ["https://raw.githubusercontent.com/rayhon1014/crawlspec/master/dealcatcher.com.json",
-            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/thinkgeek.com.json",
-            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/geek.com.json",
+  "specs": ["https://raw.githubusercontent.com/rayhon1014/crawlspec/master/thinkgeek.com.json",
             "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/gamestop.com.json",
             "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/jinx.com.json",
-            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/techbargains.com.json",
             "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/deals/woot.com.forum.json",
             "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/deals/slickdeals.net.forum.geek.json",
             "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/deals/dealsplus.com.forum.geek.json"
