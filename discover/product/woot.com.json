@@ -1,6 +1,6 @@
 {
   "name": "product:woot.com",
-  "model": "com.fp.ecommerce.model.Product",
+  "model": "com.fp.crawler.model.Product",
   "fields": {
     "regularPrice": "[class=price]",
     "discountPrice": "[class=discount] [class=list-price]",

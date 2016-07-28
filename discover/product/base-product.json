@@ -1,6 +1,6 @@
 {
   "name": "product:base",
-  "model": "com.fp.ecommerce.model.Product",
+  "model": "com.fp.crawler.model.Product",
   "fields": {
     "title": "[property=og:title]/@content,meta[name=title]/@content,[itemprop=name],[name=twitter:title]/@content",
     "description": "meta[name=description]/@content,[property=og:description]/@content,[itemprop!=reviews] > [itemprop=description],[name=twitter:description]/@content",

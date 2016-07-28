@@ -1,6 +1,6 @@
 {
   "name": "product:walmart.com",
-  "model": "com.fp.ecommerce.model.Product",
+  "model": "com.fp.crawler.model.Product",
   "fields": {
     "imageUrl": "img[itemprop=image]/@src"
   }

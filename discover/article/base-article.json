@@ -1,0 +1,7 @@
+{
+  "name": "article:base",
+  "model": "com.fp.crawler.model.Article",
+  "fields": {
+
+  }
+}
