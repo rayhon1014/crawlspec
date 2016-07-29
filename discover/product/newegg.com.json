@@ -4,6 +4,6 @@
   "fields": {
     "discountPrice": "[class=price-current]",
     "regularPrice": "[class=price-was]",
-    "imgUrl" : "img[id~=mainSlide_]/@src"
+    "imageUrl" : "img[id~=mainSlide_]/@src"
   }
 }
