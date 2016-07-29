@@ -6,7 +6,7 @@
     "isAmazonPrime": "[id=fast-track-message]:contains(Two-day Shipping),[id=fast-track-message]:contains(Same-Day Delivery),[id=fast-track-message]:contains(One-Day Shipping)",
     "amazonSalesRankText" : "span :matches(#(\\d+) in ?+)",
     "regularPrice" : "[class=a-text-strike]:contains($)",
-    "discountPrice": "[id=priceblock_ourprice]",
+    "discountPrice": "[id=priceblock_ourprice], [id=priceblock_saleprice]",
     "isFreeShipping": "[id=ourprice_shippingmessage]:contains(FREE Shipping)",
     "rating": "[id=reviewStarsLinkedCustomerReviews]>[class~=a-icon-star] :contains(out of 5 stars) !! ([0-9\\.]+) out of 5 stars",
     "numOfReview" : "[id=acrCustomerReviewText]:contains(customer reviews)",
