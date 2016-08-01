@@ -2,7 +2,7 @@
   "name": "article:base",
   "model": "com.fp.crawler.model.Article",
   "fields": {
-    "title": "[property=og:title]/@content,[itemprop=name],[name=twitter:title]/@content,meta[name=title]/@content",
+    "title": "[property=og:title]/@content,[itemprop=name],[name=twitter:title]/@content,meta[name=title]/@content,title",
     "description": "meta[name=description]/@content,[property=og:description]/@content,[itemprop!=reviews] > [itemprop=description],[name=twitter:description]/@content",
     "siteName": "[property=og:site_name]/@content",
     "tags": "[itemprop=keywords]/@content",
