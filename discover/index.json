@@ -11,6 +11,7 @@
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/tanga.com.json",
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/walmart.com.json",
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/woot.com.json",
-    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/staples.com.json"
+    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/staples.com.json",
+    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/article/base-article.json"
   ]
 }
