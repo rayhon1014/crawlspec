@@ -1,12 +1,11 @@
 {
-  "name":"crawl thinkgeek.com deals",
+  "name": "crawl thinkgeek.com deals",
   "model": "com.fp.ecommerce.model.Deal",
-  "urls":[
+  "urls": [
     "http://www.thinkgeek.com/clearance/on-sale/feature/desc/0/500/"
-    
   ],
-  "list_xpath":"//div[contains(@class,'contentblob contentblob-naked')]//div[@id~=item.*]",
-  "fields":{
+  "list_xpath": "//div[contains(@class,'contentblob contentblob-naked')]//div[@id~=item.*]",
+  "fields": {
     "siteName": "##www.thinkgeek.com",
     "title": "/@data-name",
     "category": "##geek",
@@ -14,6 +13,5 @@
     "detailUrl": "/a/@href",
     "regularPrice": "//span[contains(@class,'sale-was-price')]/s",
     "imageUrl": "//a//img/@data-original"
-    
   }
 }

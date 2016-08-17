@@ -1,11 +1,11 @@
 {
-  "name":"crawl deals.ebay.com deals",
+  "name": "crawl deals.ebay.com deals",
   "model": "com.fp.ecommerce.model.Deal",
-  "urls":[
+  "urls": [
     "http://anywhere.ebay.com/services/feed/deals/deals.php?siteid=0&version=3&dealdetail=3"
   ],
-  "list_xpath":"//InitiativeFeed//Initiative//InitiativeSection//Items//Item",
-  "fields":{
+  "list_xpath": "//InitiativeFeed//Initiative//InitiativeSection//Items//Item",
+  "fields": {
     "siteName": "##deals.ebay.com",
     "title": "//ItemDetails//Title//text()",
     "category": "##Deals",
