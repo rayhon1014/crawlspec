@@ -2,8 +2,9 @@
   "name": "product:ebay.com",
   "model": "com.fp.crawler.model.Product",
   "fields": {
-    "saleNum" : "span[class=w2b-sgl]",
-    "isFreeShipping" : "span[id=fshippingCost]:contains(FREE)",
+    "regularPrice": "#org-prc/@content",
+    "saleNum" : "span.w2b-sgl",
+    "isFreeShipping" : "span#fshippingCost:contains(FREE)",
     "isSold" : "[alt~=Item Sold]/@alt"
   }
 }
