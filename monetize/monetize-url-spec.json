@@ -1,0 +1,6 @@
+{
+  "amazon.com": [ "tag","ascsubtag"],
+  "ebay.com": ["icep_ff3","pub","toolid","campid","customid","icep_item","ipn=psmain","icep_vectorid","kwid","mtid","kw"],
+  "bestbuy.com": ["id","offerid","LID","apiKey","skuId","ref","loc","acampID","siteID"]
+}
+
