@@ -1,76 +1,11 @@
 {
-	"amazon.com": {
-					"regex" : "((tag|ascsubtag|linkCode)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"ebay.com": {
-					"regex" : "((icep_ff3|pub|toolid|campid|customid|icep_item|ipn|icep_vectorid|kwid|mtid|kw)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"bestbuy.com": {
-					"regex" : "((offerid|LID|apiKey|skuId|ref|loc|acampID|siteID)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"Thinkgeek.com": {
-					"regex" : "((offerid|LID|apiKey|skuId|ref|loc|acampID|SID|siteID|cj|cpg|CJURL|AID|PID|CJID)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"kohls.com": {
-					"regex" : "((src|utm_campaign|utm_medium|utm_source|utm_content|utm_term|siteid)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"adorama.com": {
-					"regex" : "((sdtid|emailprice|utm_medium|utm_source)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"groupon.com": {
-					"regex" : "((utm_medium|utm_campaign|mediaid|utm_source|sid|tstoken|tsToken|WID)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"jinx.com": {
-					"regex" : "((utm_source|utm_medium|utm_campaign)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"gearbest.com": {
-					"regex" : "((wid|utm_campaign|utm_source|utm_medium|from|eo|email|siteid)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-    "rakuten.com": {
-					"regex" : "((scid|siteID|sellerid)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"newegg.com": {
-					"regex" : "((PID|AID|cm_mmc|nm_mc|SID|cm_re)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"woot.com": {
-					"regex" : "((utm_source|utm_medium|utm_campaign|siteID|ref)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"walmart.com": {
-					"regex" : "((athcpid|athpgid|athcgid|thznid|athieid|athstid|athena|u1|oid|wmlspartner|sourceid|affillinktype|veh)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"homedepot.com": {
-					"regex" : "((AID|PID|SID|cm_mmc|cj)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"staples.com": {
-					"regex" : "((affiliateref|PID|storeId|AID|SID|cm_mmc|CID|CJPIXEL)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"bhphotovideo.com": {
-					"regex" : "((utm_campaign|utm_source|utm_term|utm_content|utm_medium)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"officedepot.com": {
-					"regex" : "((cm_mmc)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				},
-	"cdkeys.com": {	
-					"regex" : "((mw_aref|data1)=[a-zA-Z0-9\\-\\_]*)(&|$)",
-					"value": ""
-				}
+  "amazon.com": "((tag|ascsubtag|linkCode)=[a-zA-Z0-9\\-\\_]*)(&|$)",
+  "ebay.com": "((icep_ff3|pub|toolid|campid|customid|icep_item|ipn|icep_vectorid|kwid|mtid|kw)=[a-zA-Z0-9\\-\\_]*)(&|$)",
+  "bestbuy.com": "((offerid|LID|apiKey|skuId|ref|loc|acampID|siteID)=[a-zA-Z0-9\\-\\_]*)(&|$)",
+  "Thinkgeek.com" : "((offerid|LID|apiKey|skuId|ref|loc|acampID|SID|siteID|cj|cpg|CJURL|AID|PID|CJID)=[a-zA-Z0-9\\-\\_]*)(&|$)",
+  "kohls.com" : "((src|utm_campaign|utm_medium|utm_source|utm_content|utm_term|siteid)=[a-zA-Z0-9\\-\\_]*)(&|$)",
+  "adorama.com" : "((sdtid|emailprice|utm_medium|utm_source)=[a-zA-Z0-9\\-\\_]*)(&|$)",
+  "groupon.com" :"((utm_medium|utm_campaign|mediaid|utm_source|sid|tstoken|tsToken|WID)=[a-zA-Z0-9\\-\\_]*)(&|$)",
+  "jinx.com" : "((utm_source|utm_medium|utm_campaign)=[a-zA-Z0-9\\-\\_]*)(&|$)",
+  "gearbest.com" : "((wid|utm_campaign|utm_source|utm_medium|from|eo|email|siteid)=[a-zA-Z0-9\\-\\_]*)(&|$)"
 }
-
-
