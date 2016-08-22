@@ -8,7 +8,7 @@
 					"value": ""
 				},
 	"bestbuy.com": {
-					"regex" : "(((offerid|LID|apiKey|skuId|ref|loc|acampID|siteID)=[a-zA-Z0-9\\-\\_]*)(&|$)",
+					"regex" : "((offerid|LID|apiKey|skuId|ref|loc|acampID|siteID)=[a-zA-Z0-9\\-\\_]*)(&|$)",
 					"value": ""
 				},
 	"Thinkgeek.com": {
