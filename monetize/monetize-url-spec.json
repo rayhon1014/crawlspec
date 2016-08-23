@@ -7,6 +7,15 @@
   "adorama.com" : "((sdtid|emailprice|utm_medium|utm_source)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
   "groupon.com" :"((utm_medium|utm_campaign|mediaid|utm_source|sid|tstoken|tsToken|WID)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
   "jinx.com" : "((utm_source|utm_medium|utm_campaign)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
-  "gearbest.com" : "((wid|utm_campaign|utm_source|utm_medium|from|eo|email|siteid)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)"
+  "gearbest.com" : "((wid|utm_campaign|utm_source|utm_medium|from|eo|email|siteid)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
+  "rakuten.com": "((scid|siteID|sellerid)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
+  "newegg.com": "((PID|AID|cm_mmc|nm_mc|SID|cm_re)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
+  "woot.com": "((utm_source|utm_medium|utm_campaign|siteID|ref)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
+  "walmart.com": "((athcpid|athpgid|athcgid|thznid|athieid|athstid|athena|u1|oid|wmlspartner|sourceid|affillinktype|veh)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
+  "homedepot.com": "((AID|PID|SID|cm_mmc|cj)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
+  "staples.com": "((affiliateref|PID|storeId|AID|SID|cm_mmc|CID|CJPIXEL)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
+  "bhphotovideo.com": "((utm_campaign|utm_source|utm_term|utm_content|utm_medium)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
+  "officedepot.com": "((cm_mmc)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
+  "cdkeys.com": "((mw_aref|data1)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)"
 }
 
