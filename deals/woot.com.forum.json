@@ -4,7 +4,6 @@
   "urls":[
     "index:http://www.woot.com/forums/default.aspx?p=##1-5## !! urlPath=div[class~=.*postInfo.*] h3 a/@href"
   ],
-  "list_path":"div[class=primaryContent]",
   "fields":{
     "siteName": "##www.woot.com",
     "title": "span[class*=title] a",
