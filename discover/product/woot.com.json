@@ -3,7 +3,7 @@
   "model": "com.fp.crawler.model.Product",
   "fields": {
     "regularPrice": "[class=price]",
-    "discountPrice": "[class=discount] [class=list-price],[class=price-exact] [class=price]]",
+    "discountPrice": "[class=discount] [class=list-price],[class=price-exact] [class=price]",
     "imgUrl": "div[id=gallery] div[class=photo]/@data-zoom-url"
   }
 }
