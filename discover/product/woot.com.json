@@ -5,6 +5,6 @@
     "regularPrice": "",
     "discountPrice": "[property=product:price:amount]/@content, [class=discount] [class=list-price],[class=price-exact] [class=price]",
     "imgUrl": "div[id=gallery] div[class=photo]/@data-zoom-url",
-    "isSold": "a[class=soldout]:contains(Woot-Off is dead)"
+    "isSold": "a[class=sold-out-message]:contains(Woot-Off is dead)"
   }
 }
