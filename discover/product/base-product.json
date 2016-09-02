@@ -4,7 +4,7 @@
   "fields": {
     "title": "[property=og:title]/@content,meta[name=title]/@content,[itemprop=name],[name=twitter:title]/@content",
     "description": "meta[name=description]/@content,[property=og:description]/@content,[itemprop!=reviews] > [itemprop=description],[name=twitter:description]/@content",
-    "discountPrice": "[itemprop=price]/@content,[property=og:price:amount]/@content",
+    "discountPrice": "[itemprop=price]/@content,[property=og:price:amount]/@content,[property=product:price:amount]/@content",
     "currency": "[itemprop=priceCurrency]/@content,[property=og:price:currency]/@content",
     "brand": "[itemprop=brand] > [itemprop=name]/@content",
     "rating": "[itemprop!=reviewRating] [itemprop=ratingValue]",

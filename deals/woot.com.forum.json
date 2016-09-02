@@ -2,17 +2,12 @@
   "name":"woot.com forum deals for geek",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "index:http://deals.woot.com/?page=##1-10## !! urlPath=div[class~=.*postInfo.*] h3 a/@href"
-    
+    "index:http://www.woot.com/forums/default.aspx?p=##1-5## !! urlPath=div[class~=.*postInfo.*] h3 a/@href"
   ],
   "list_path":"div[class=primaryContent]",
   "fields":{
-    "siteName": "##deals.woot.com",
-    "title": "span[class*=fn]",
-    "category": "li[class*=first] a[class*=category]",
-    "dealPrice": "span[class*=amount]",
-    "finalUrl": "div[class~=postInfo.*] h3 a/@href",
-    "desc": "div[class*=description] p",
-    "numOfLike": "span[class*=count]"
+    "siteName": "##www.woot.com",
+    "title": "span[class*=title] a",
+    "finalUrl": "div[class~=postInfo.*] h3 a/@href"
   }
 }
