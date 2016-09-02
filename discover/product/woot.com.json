@@ -4,6 +4,7 @@
   "fields": {
     "regularPrice": "",
     "discountPrice": "[property=product:price:amount]/@content, [class=discount] [class=list-price],[class=price-exact] [class=price]",
-    "imgUrl": "div[id=gallery] div[class=photo]/@data-zoom-url"
+    "imgUrl": "div[id=gallery] div[class=photo]/@data-zoom-url",
+    "isSold": "a[class=soldout]"
   }
 }
