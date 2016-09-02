@@ -6,7 +6,7 @@
   ],
   "fields":{
     "siteName": "##www.woot.com",
-    "title": "span[class*=title] a",
-    "finalUrl": "div[class~=postInfo.*] h3 a/@href"
+    "title": "h2[class=title] a",
+    "finalUrl": "h2[class=title] a/@href"
   }
 }
