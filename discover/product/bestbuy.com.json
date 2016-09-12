@@ -2,9 +2,10 @@
   "name": "product:bestbuy.com",
   "model": "com.fp.crawler.model.Product",
   "fields": {
-    "imgUrl": "div[class=item active image-wrapper] > img/@src",
+    "imageUrl": "div[class=item active image-wrapper] > img/@src",
     "isFreeShipping": "span[class=free-shipping-message]:contains(Free Shipping)",
     "discountPrice" : "div[class=item-price]",
-    "regularPrice" : "span[class=regular-price]"
+    "regularPrice" : "span[class=regular-price]",
+	"isSold":"button:contains(Out of Stock)"
   }
 }

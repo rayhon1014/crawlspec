@@ -5,6 +5,7 @@
     "title" : "h1[id=deal-title]",
     "regularPrice": "[class=discount-value]",
     "saleNum" : "[class~=qty-bought]",
-    "imgUrl" : "img[class~=featured-image]/@src"
+    "imgUrl" : "img[class~=featured-image]/@src",
+	"isSold" : "[class=reason]:contains(No Longer Available)"
   }
 }
