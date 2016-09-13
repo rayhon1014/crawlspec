@@ -5,7 +5,6 @@
     "imageUrl": "div[class=item active image-wrapper] > img/@src",
     "isFreeShipping": "span[class=free-shipping-message]:contains(Free Shipping)",
     "discountPrice" : "div[class=item-price]",
-    "regularPrice" : "span[class=regular-price]",
-	"isSold":"button:contains(Out of Stock)"
+    "regularPrice" : "span[class=regular-price]"
   }
 }
