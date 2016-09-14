@@ -2,8 +2,7 @@
   "name": "product:staples.com",
   "model": "com.fp.crawler.model.Product",
   "fields": {
-    "imageUrl": "img[class=stp--sku-image]/@src",
-	"isSold" : "span:contains(Out of Stock)"
+    "imageUrl": "img[class=stp--sku-image]/@src"
   }
 }
 
