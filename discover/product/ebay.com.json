@@ -4,7 +4,7 @@
   "fields": {
     "saleNum" : "span[class=w2b-sgl]",
     "isFreeShipping" : "span[id=fshippingCost]:contains(FREE)",
-    "isSold" : "[alt~=Item Ended]/@alt",
+    "isSold" : "[alt~=Item Ended]/@alt, span[class=msgTextAlign]:contains(out of stock)",
     "regularPrice" : "span[id=orgPrc]"
   }
 }
