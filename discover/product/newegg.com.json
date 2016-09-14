@@ -5,6 +5,6 @@
     "discountPrice": "[class=price-current]",
     "regularPrice": "[class=price-was]",
     "imageUrl" : "img[id~=mainSlide_]/@src",
-	"isSold" : ""
+	"isSold" : "div[class=grpLayout]:contains(OUT OF STOCK)"
   }
 }

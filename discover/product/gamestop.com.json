@@ -4,6 +4,7 @@
   "fields": {
     "imageUrl": "img[class=ae-img]/@src",
     "discountPrice" : "h3[class=ats-prodBuy-price]",
-	"regularPrice" : "h4[class=ats-prodBuy-priceLast]"
+	"regularPrice" : "h4[class=ats-prodBuy-priceLast]",
+	"isSold" : "span:contains(Not Available)"
   }
 }

@@ -2,6 +2,7 @@
   "name": "product:walmart.com",
   "model": "com.fp.crawler.model.Product",
   "fields": {
-    "imageUrl": "img[itemprop=image]/@src"
+    "imageUrl": "img[itemprop=image]/@src",
+	"isSold" : "p[class=price-oos]:contains(Out of stock)"
   }
 }

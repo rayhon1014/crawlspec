@@ -3,7 +3,7 @@
   "model": "com.fp.crawler.model.Product",
   "fields": {
     "imageUrl": "img[itemprop=image]/@src",
-    "isSold" : "p[class=availability]:contains(In stock)",
+    "isSold" : "p[class=availability]:contains(Out of stock)",
     "discountPrice" : "h3[itemprop=price]",
 	"regularPrice" : "p[class=availability_sale] s"
   }
