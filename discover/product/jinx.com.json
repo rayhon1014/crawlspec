@@ -5,6 +5,7 @@
     "imageUrl": "div[class=easyzoom] a/@href",
     "isSold" : "p[class=availability]:contains(In stock)",
     "discountPrice" : "span[id=itemPrice]",
-	"regularPrice" : "span[id=oldPrice]"
+    "regularPrice" : "span[id=oldPrice]",
+    "isSold" : "div[class=divRetired]"
   }
 }
