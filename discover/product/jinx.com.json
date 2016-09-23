@@ -4,7 +4,6 @@
   "fields": {
     "imageUrl": "div[class=easyzoom] a/@href",
     "discountPrice" : "span[id=itemPrice]",
-    "regularPrice" : "span[id=oldPrice]",
-    "isSold" : "div[class=divRetired]:contains(sold out)"
+    "regularPrice" : "span[id=oldPrice]"
   }
 }
