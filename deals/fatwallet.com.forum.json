@@ -1,0 +1,16 @@
+{
+  "name":"fatwallet.com forum deals for geek",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "index:https://www.fatwallet.com/forums/hot-deals !! urlPath=tr[class~=topicRow] span[class=titleArea] a[class=topicTitle]/@href",
+	"index:https://www.fatwallet.com/forums/hot-deals?start=20 !! urlPath=tr[class~=topicRow] span[class=titleArea] a[class=topicTitle]/@href",
+	"index:https://www.fatwallet.com/forums/hot-deals?start=40!! urlPath=tr[class~=topicRow] span[class=titleArea] a[class=topicTitle]/@href"
+  ],
+  "fields":{
+    "siteName": "##www.fatwallet.com",
+    "title": "h1[class=topic-title] a",
+    "finalUrl": "a[id~=cta-button]/@href",
+    "numOfLike": "div[id=number]",
+    "numOfReview": "div[id=views] span"
+  }
+}
