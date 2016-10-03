@@ -4,7 +4,9 @@
   "urls":[
     "index:https://www.fatwallet.com/forums/hot-deals !! urlPath=tr[class~=topicRow] span[class=titleArea] a[class=topicTitle]/@href",
 	"index:https://www.fatwallet.com/forums/hot-deals?start=20 !! urlPath=tr[class~=topicRow] span[class=titleArea] a[class=topicTitle]/@href",
-	"index:https://www.fatwallet.com/forums/hot-deals?start=40!! urlPath=tr[class~=topicRow] span[class=titleArea] a[class=topicTitle]/@href"
+	"index:https://www.fatwallet.com/forums/hot-deals?start=40!! urlPath=tr[class~=topicRow] span[class=titleArea] a[class=topicTitle]/@href",
+	"index:https://www.fatwallet.com/forums/hot-deals?start=60!! urlPath=tr[class~=topicRow] span[class=titleArea] a[class=topicTitle]/@href",
+	"index:https://www.fatwallet.com/forums/hot-deals?start=80!! urlPath=tr[class~=topicRow] span[class=titleArea] a[class=topicTitle]/@href"
   ],
   "fields":{
     "siteName": "##www.fatwallet.com",
@@ -14,3 +16,4 @@
     "numOfReview": "div[id=views] span"
   }
 }
+
