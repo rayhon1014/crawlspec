@@ -2,9 +2,13 @@
   "name":"crawl dealnews.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    	"http://dealnews.com/search.html?o=price&search=free !! category= Freebies"
+    "http://dealnews.com/search.html?o=price&search=free !! category= Freebies",
+	  "http://dealnews.com/search.html?p=21&o=price&search=free !! category= Freebies",
+	  "http://dealnews.com/search.html?o=price&p=41&search=free !! category= Freebies",
+	  "http://dealnews.com/search.html?o=price&p=61&search=free !! category= Freebies",
+	  "http://dealnews.com/search.html?o=price&p=81&search=free !! category= Freebies"
   ],
-   "list_xpath":"//div[contains(@class,'content-view')]",
+  "list_xpath":"//div[contains(@class,'content-view')]",
   "fields":{
     "siteName": "##www.dealnews.com",
     "title": "//h3[contains(@class,'headline-xlarge')]//a",
