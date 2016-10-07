@@ -17,6 +17,6 @@
     "desc": "//div[contains(@class,'content-details')]//div[contains(@class,'content-body')]",
     "detailUrl": "//div[contains(@class,'content-image')]//a/@href",
     "salePitch": "//small[contains(@class,'content-sub-call-out')]",
-    "isFree": "//div[contains(@class,'content-call-out')] !! (Free)"
+    "isFree": "//div[contains(@class,'content-call-out')] !! (Free|FREE|free)"
   }
 }
