@@ -16,6 +16,7 @@
     "imageUrl": "//div[contains(@class,'content-image')]//a//img/@data-src",
     "desc": "//div[contains(@class,'content-details')]//div[contains(@class,'content-body')]",
     "detailUrl": "//div[contains(@class,'content-image')]//a/@href",
+    "finalUrl": "//div[contains(@class,'content-image')]//a/@href",
     "isFree": "//div[contains(@class,'content-call-out')] !! (Free|FREE|free)"
   }
 }
