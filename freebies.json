@@ -1,0 +1,7 @@
+{
+  "specs": [
+	    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/deals/dealsplus.com.forum.freebies.json",
+	    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/dealnews.com.freebies.json",
+		"https://raw.githubusercontent.com/rayhon1014/crawlspec/master/reddit.com.freebies.json"
+	      ]
+}
