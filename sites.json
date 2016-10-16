@@ -1,0 +1,6 @@
+{
+  "specs": ["https://raw.githubusercontent.com/rayhon1014/crawlspec/master/thinkgeek.com.json",
+            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/gamestop.com.json",
+            "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/jinx.com.json"
+     ]
+}
