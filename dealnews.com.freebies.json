@@ -3,8 +3,7 @@
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
     "http://dealnews.com/search.html?o=price&search=free !! category= Freebies",
-    "http://dealnews.com/search.html?p=21&o=price&search=free !! category= Freebies",
-    "http://dealnews.com/search.html?o=price&p=41&search=free !! category= Freebies"
+    "http://dealnews.com/search.html?p=21&o=price&search=free !! category= Freebies"
   ],
   "list_xpath":"//div[contains(@class,'content-view')]",
   "fields":{
