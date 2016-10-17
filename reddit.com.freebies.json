@@ -3,8 +3,7 @@
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
     	"https://www.reddit.com/r/freebies/ !! category= Freebies",
-	"https://www.reddit.com/r/freebies/?count=25&after=t3_55p41j !! category= Freebies",
-	"https://www.reddit.com/r/freebies/?count=50&after=t3_54rhof !! category= Freebies"
+	"https://www.reddit.com/r/freebies/?count=25&after=t3_55p41j !! category= Freebies"
   ],
    "list_xpath":"//div[contains(@id,'siteTable')]//div[contains(@class,'thing')]",
   "fields":{
