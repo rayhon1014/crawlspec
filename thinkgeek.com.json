@@ -2,7 +2,7 @@
   "name":"crawl thinkgeek.com deals",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "http://www.thinkgeek.com/clearance/on-sale/feature/desc/0/100/"    
+    "http://www.thinkgeek.com/clearance/on-sale/feature/desc/0/60/"    
   ],
   "list_xpath":"//div[contains(@class,'contentblob contentblob-naked')]//div[@id~=item.*]",
   "fields":{
