@@ -2,7 +2,7 @@
   "amazon.com": "((tag|ascsubtag|linkCode)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
   "ebay.com": "((icep_ff3|afepn|pub|toolid|campid|customid|icep_item|ipn|icep_vectorid|kwid|mtid|kw)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
   "bestbuy.com": "((offerid|LID|apiKey|skuId|ref|loc|acampID|siteID)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
-  "Thinkgeek.com" : "((offerid|LID|apiKey|skuId|ref|loc|acampID|SID|siteID|cj|cpg|CJURL|AID|PID|CJID)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
+  "thinkgeek.com" : "((offerid|LID|apiKey|skuId|ref|loc|acampID|SID|siteID|cj|cpg|CJURL|AID|PID|CJID)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
   "kohls.com" : "((src|utm_campaign|utm_medium|utm_source|utm_content|utm_term|siteid)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
   "adorama.com" : "((sdtid|emailprice|utm_medium|utm_source)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
   "groupon.com" :"((utm_medium|utm_campaign|mediaid|utm_source|sid|tstoken|tsToken|WID)=[a-zA-Z0-9\\-\\_\\.]*)(&|$)",
