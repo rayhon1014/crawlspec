@@ -1,6 +1,6 @@
 {
   "name":"product:handhelditems.com",
-  "model": "com.fp.ecommerce.model.Product",
+  "model": "com.fp.crawler.model.Product",
   "fields":{
   	"imageUrl": "img[class~=img-responsive center-block lazy]/@default_image",
   	"dealPrice": "span#cart-final-price-info span.price",
