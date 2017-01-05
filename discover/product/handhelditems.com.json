@@ -3,7 +3,7 @@
   "model": "com.fp.crawler.model.Product",
   "fields":{
   	"imageUrl": "img[class~=img-responsive center-block lazy]/@default_image",
-  	"dealPrice": "span#cart-final-price-info span.price",
+  	"discountPrice": "span#cart-final-price-info span.price",
   	"regularPrice": "span#car-value-price span.price",
   	"isFreeShipping": "span[class~=colRight-Free-Shipping]:contains(Free Shipping)"
   }
