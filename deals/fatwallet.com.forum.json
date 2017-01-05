@@ -8,7 +8,7 @@
   "fields":{
     "siteName": "##www.fatwallet.com",
     "title": "h1[class=topic-title] a",
-    "finalUrl": "a[href~=/redirect/]/@href",
+    "finalUrl": "div.post_content a[href~=/redirect/]/@href",
     "numOfLike": "div[id=number]",
     "numOfReview": "div[id=views] span"
   }
