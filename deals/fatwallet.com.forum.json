@@ -8,9 +8,8 @@
   "fields":{
     "siteName": "##www.fatwallet.com",
     "title": "h1[class=topic-title] a",
-    "finalUrl": "a[id~=cta-button]/@href",
+    "finalUrl": "a[href~=/redirect/]/@href",
     "numOfLike": "div[id=number]",
     "numOfReview": "div[id=views] span"
   }
 }
-
