@@ -7,7 +7,6 @@
   "fields":{
     "siteName": "##www.slickdeals.net",
     "title": "div[id=dealTitle] h1",
-    "category": "a[class~=tag tag_category]",
     "finalUrl": "a#buyNow/@href",
     "discountPrice": "div#dealPrice",
     "numOfLike": "div[class=dealScore] span[class=score]",
