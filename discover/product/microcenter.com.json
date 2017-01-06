@@ -1,5 +1,5 @@
 {
-  "name":"product:handhelditems.com",
+  "name":"product:microcenter.com",
   "model": "com.fp.crawler.model.Product",
   "fields":{
   	"title": "h1 span[itemprop=name]",
