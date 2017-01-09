@@ -2,7 +2,6 @@
   "name": "product:newegg.com",
   "model": "com.fp.crawler.model.Product",
   "fields": {
-    "discountPrice": "[class=price-current]",
     "regularPrice": "[class=price-was]",
     "imageUrl" : "img[id~=mainSlide_]/@src",
 	"isSold" : "div[class=grpLayout]:contains(OUT OF STOCK)"
