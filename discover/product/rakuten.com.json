@@ -1,6 +1,6 @@
 {
   "name": "product:rakuten.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
     "isSold" : "div[class=main-price sold-out]:contains(Sold Out)"
   }

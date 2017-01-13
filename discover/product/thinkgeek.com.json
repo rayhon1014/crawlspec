@@ -1,6 +1,6 @@
 {
   "name": "product:thinkgeek.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
     "imageUrl": "img[itemprop=image]/@src",
     "discountPrice" : "h3[itemprop=price]",

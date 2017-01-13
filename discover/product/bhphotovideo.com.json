@@ -1,6 +1,6 @@
 {
   "name": "product:bhphotovideo.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
     "imgUrl": "img[class=mainImage]/@src",
     "regularPrice": "div[class=pPrice] p"

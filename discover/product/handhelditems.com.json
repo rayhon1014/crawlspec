@@ -1,6 +1,6 @@
 {
   "name":"product:handhelditems.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields":{
   	"discountPrice": "span#cart-final-price-info span.price",
   	"regularPrice": "span#car-value-price span.price",

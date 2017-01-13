@@ -1,6 +1,6 @@
 {
   "name": "product:newegg.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
     "regularPrice": "[class=price-was]",
     "imageUrl" : "img[id~=mainSlide_]/@src",

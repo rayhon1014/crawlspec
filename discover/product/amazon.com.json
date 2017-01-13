@@ -1,6 +1,6 @@
 {
   "name": "product:amazon.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
     "numOfShared" : "[class=share_count_text]:contains(Shares)",
     "isAmazonPrime": "[id=fast-track-message]:contains(Two-day Shipping),[id=fast-track-message]:contains(Same-Day Delivery),[id=fast-track-message]:contains(One-Day Shipping)",

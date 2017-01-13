@@ -1,6 +1,6 @@
 {
   "name":"product:microcenter.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields":{
   	"title": "h1 span[itemprop=name]",
   	"desc": "meta[name=description]/@content",

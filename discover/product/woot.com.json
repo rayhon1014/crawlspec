@@ -1,6 +1,6 @@
 {
   "name": "product:woot.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
     "regularPrice": "",
     "discountPrice": "[property=product:price:amount]/@content, [class=discount] [class=list-price],[class=price-exact] [class=price]",

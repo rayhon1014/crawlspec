@@ -1,6 +1,6 @@
 {
   "name": "product:staples.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
     "imageUrl": "img[class=stp--sku-image]/@src"
   }

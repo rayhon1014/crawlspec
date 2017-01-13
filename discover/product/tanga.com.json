@@ -1,6 +1,6 @@
 {
   "name": "product:tanga.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
     "regularPrice": "div[class=buy] [class~=original-price]",
     "discountPrice": "div[class=buy] [class=price]",

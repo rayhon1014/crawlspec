@@ -1,6 +1,6 @@
 {
   "name": "product:sears.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
     "title" : "h1[class~=product-title]",
     "imgUrl": "img[class=main-image]/@src",

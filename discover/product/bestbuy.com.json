@@ -1,6 +1,6 @@
 {
   "name": "product:bestbuy.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
     "imageUrl": "div[class=item active image-wrapper] > img/@src",
     "isFreeShipping": "span[class=free-shipping-message]:contains(Free Shipping)",

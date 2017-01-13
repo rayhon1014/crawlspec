@@ -1,6 +1,6 @@
 {
   "name": "product:jinx.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
     "imageUrl": "div[class=easyzoom] a/@href",
     "discountPrice" : "span[id=itemPrice]",

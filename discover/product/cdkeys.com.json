@@ -1,6 +1,6 @@
 {
   "name": "product:cdkeys.com",
-  "model": "com.fp.crawler.model.Product",
+  "model": "com.ctx.crawler.model.Product",
   "fields": {
    "regularPrice" : "span[id^=old-price-]"
   }
