@@ -2,8 +2,8 @@
   "name": "product:woot.com",
   "model": "com.ctx.crawler.model.Product",
   "fields": {
-    "regularPrice": "",
-    "discountPrice": "[property=product:price:amount]/@content, [class=discount] [class=list-price],[class=price-exact] [class=price]",
+    "regularPrice": "span.list-price",
+    "discountPrice": "span.price",
     "imgUrl": "div[id=gallery] div[class=photo]/@data-zoom-url",
     "isSold": "[class=sold-out-message]:contains(Woot-Off is dead)"
   }
