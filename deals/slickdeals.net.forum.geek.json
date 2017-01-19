@@ -8,7 +8,7 @@
     "siteName": "##www.slickdeals.net",
     "title": "div[id=dealTitle] h1",
     "finalUrl": "a#buyNow/@href",
-    "discountPrice": "div#dealPrice",
+    "dealPrice": "div#dealPrice",
     "numOfLike": "div[class=dealScore] span[class=score]",
     "numOfReview": "a#commentsBox label !! [0-9]+",
     "imageUrl": "img[id=mainImage]/@src"
