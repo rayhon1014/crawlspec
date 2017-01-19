@@ -1,0 +1,9 @@
+{
+  "name":"product:adorama.com",
+  "model": "com.ctx.crawler.model.Product",
+  "fields":{
+   	"discountPrice": "meta[name=twitter:data1]/@content",
+  	"regularPrice": "meta[name=twitter:data1]/@content",
+	"rating": "div[class=col1 rating-num] strong"
+  }
+}

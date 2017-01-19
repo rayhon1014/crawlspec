@@ -18,7 +18,7 @@
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/gamestop.com.json",
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/jinx.com.json",
 	"https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/handhelditems.com.json",
-	"https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/microcenter.com.json"
-	
+	"https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/microcenter.com.json",
+	"https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/adorama.com.json"
   ]
 }
