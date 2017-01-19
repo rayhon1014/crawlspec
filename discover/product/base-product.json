@@ -13,6 +13,6 @@
     "imageUrl": "[property=og:image]/@content,[itemprop=image]/@src,[name=twitter:image]/@content,[href*=pinterest.com/pin]/@href[url|media]",
     "datePublished": "[itemprop=datePublished]",
     "isSold": "[itemprop=availability][content~=^(OutOfStock)]/@content,[property=og:availability][content~=^(OutOfStock)]/@content",
-    "productId": "[itemprop=og:upc]/@content,[itemprop=sku]/@content"
+    "id": "[itemprop=og:upc]/@content,[itemprop=sku]/@content"
   }
 }
