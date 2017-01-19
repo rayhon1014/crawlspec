@@ -6,6 +6,6 @@
     "discountPrice": "div[class=buy] [class=price]",
     "numOfReview": "div[class=customer-review] [class=review]",
     "saleNum": "div[class=limited-quantity] [class=text]",
-    "imgUrl": "div[class=images-full-size] a[class=full-size-image active]/@href"
+    "imgUrl": "div[class=images-full-size] a[class=full-size-image active] img/@href"
   }
 }
