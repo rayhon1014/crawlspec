@@ -3,7 +3,7 @@
   "model": "com.ctx.crawler.model.Product",
   "fields":{
   	"title": "h1 span[itemprop=name]",
-  	"desc": "meta[name=description]/@content",
+  	"description": "meta[name=description]/@content",
   	"imageUrl": "img.productImageZoom/@src",
   	"regularPrice": "div.savings span"
   }
