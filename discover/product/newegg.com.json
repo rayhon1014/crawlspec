@@ -2,7 +2,7 @@
   "name": "product:newegg.com",
   "model": "com.ctx.crawler.model.Product",
   "fields": {
-    "regularPrice": "[class=price-was]",
+    "discountPrice": "div#landingpage-price li.price-was",
     "imageUrl" : "img[id~=mainSlide_]/@src",
 	"isSold" : "div[class=grpLayout]:contains(OUT OF STOCK)"
   }
