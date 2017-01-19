@@ -11,6 +11,6 @@
     "discountPrice": "div#dealPrice",
     "numOfLike": "div[class=dealScore] span[class=score]",
     "numOfReview": "a#commentsBox label !! [0-9]+",
-    "imgUrl": "img[id=mainImage]/@src"
+    "imageUrl": "img[id=mainImage]/@src"
   }
 }
