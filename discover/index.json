@@ -13,6 +13,7 @@
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/woot.com.json",
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/staples.com.json",
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/article/base-article.json",
+    "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/article/base-article-xpath.json",
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/cdkeys.com.json",
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/thinkgeek.com.json",
     "https://raw.githubusercontent.com/rayhon1014/crawlspec/master/discover/product/gamestop.com.json",
