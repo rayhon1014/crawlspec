@@ -1,0 +1,9 @@
+{
+  "name":"product:kmart.com",
+  "model": "com.ctx.crawler.model.Product",
+  "fields":{
+   	"discountPrice": "h4.redSalePrice",
+  	"regularPrice": "span[class=price-item] span[class=price-wrapper]",
+	"rating": "meta[itemprop=ratingValue]/@content"
+  }
+}
