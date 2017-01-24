@@ -1,0 +1,15 @@
+{
+  "name": "article:base",
+  "model": "com.ctx.crawler.model.Article",
+  "path_type": "xpath",
+  "fields": {
+    "title": "//*[@property=\"og:title\"]/@content|//*[@itemprop=\"name\"]|//*[@name=\"twitter:title\"]/@content|//meta[@name=\"title\"]/@content|//title|//h1|//*[contains(@id*,\"title\")]",
+    "description": "//meta[@name=\"description\"]/@content|//*[@property=\"og:description\"]/@content|//*[@itemprop!=\"reviews\"]/*[@itemprop=\"description\"]|//*[@name=\"twitter:description\"]/@content",
+    "siteName": "//*[@property=\"og:site_name\"]/@content",
+    "tags": "//*[@itemprop=\"keywords\"]/@content",
+    "imageUrl": "//*[@property=\"og:image\"]/@content|//*[@itemprop=\"image\"]/@src|//*[@itemprop=\"thumbnailUrl\"]/@content|//*[@itemprop=\"thumbnailUrl\"]/@src|//*[@name=\"twitter:image\"]/@content|//*[contains(@href, \"pinterest.com/pin\")]/@href|//*[contains(@href, \"pinterest.com/pin\")]/@url|//*[contains(@href, \"pinterest.com/pin\")]/@media",
+    "datePublished": "//*[@itemprop=\"datePublished\"]",
+    "content": "//*[@itemprop=\"articleBody\"]|//*[@itemprop=\"text\"]",
+    "author": "//*[@itemprop=\"author\"]/@content|//*[@itemprop=\"creator\"]/@content"
+  }
+}

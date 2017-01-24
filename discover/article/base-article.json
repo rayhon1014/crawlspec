@@ -1,5 +1,5 @@
 {
-  "name": "article:base",
+  "name": "article:base-css",
   "model": "com.fp.crawler.model.Article",
   "fields": {
     "title": "[property=og:title]/@content,[itemprop=name],[name=twitter:title]/@content,meta[name=title]/@content,title,h1,[id*=title]",
