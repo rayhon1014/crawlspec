@@ -1,0 +1,23 @@
+{
+  "name":"slickdeals.net deals (supported crawled deals from forum)",
+  "model": "com.fp.ecommerce.model.Deal",
+  "urls":[
+    "index:https://slickdeals.net/deals/games/?pp=26&r=1&page=##1-2## !! category=VIDEO GAMES | urlPath=div.fpItem a.itemImageLink/@href",
+    "index:https://slickdeals.net/deals/tv/?pp=26&page=##1-2## !! category=TV | urlPath=div.fpItem a.itemImageLink/@href",
+    "index:https://slickdeals.net/deals/computers/?pp=26&page=##1-2## !! category=COMPUTERS | urlPath=div.fpItem a.itemImageLink/@href",
+    "index:https://slickdeals.net/deals/apparel/?pp=26&page=##1-2## !! category=APPAREL | urlPath=div.fpItem a.itemImageLink/@href",
+    "index:https://slickdeals.net/deals/tech/?pp=26&page=##1-2## !! category=TECH | urlPath=div.fpItem a.itemImageLink/@href",
+    "index:https://slickdeals.net/deals/photo/?pp=26&page=##1-2## !! category=CAMERAS | urlPath=div.fpItem a.itemImageLink/@href",
+    "index:https://slickdeals.net/deals/children/?pp=26&page=##1-2## !! category=CHILDREN | urlPath=div.fpItem a.itemImageLink/@href"
+  ],
+  "fields":{
+    "siteName": "##www.slickdeals.net",
+    "category": "$$category",
+    "title": "div[id=dealTitle] h1",
+    "finalUrl": "a#buyNow/@href",
+    "dealPrice": "div#dealPrice",
+    "numOfLike": "div[class=dealScore] span[class=score]",
+    "numOfReview": "a#commentsBox label !! [0-9]+",
+    "imageUrl": "img[id=mainImage]/@src"
+  }
+}
