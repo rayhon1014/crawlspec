@@ -2,10 +2,11 @@
   "name":"slickdeals.net forum deals for geek",
   "model": "com.fp.ecommerce.model.Deal",
   "urls":[
-    "index:http://slickdeals.net/forums/forumdisplay.php?f=9&page=##1-2##&daysprune=7&intagid%5B%5D=9&intagid%5B%5D=309&intagid%5B%5D=40&order=desc&pp=80&sort=threadstarted&vote=100 !! urlPath=a[id^=thread_title]/@href"
+    "index:https://slickdeals.net/forums/forumdisplay.php?daysprune=1&vote=8&intagid%5B%5D=9&intagid%5B%5D=40&intagid%5B%5D=309&f=9&sort=threadstarted&order=desc&r=1 !! urlPath=a[id^=thread_title]/@href"
   ],
   "fields":{
     "siteName": "##www.slickdeals.net",
+    "category": "a.tag.tag_category.tag_primary",
     "title": "div[id=dealTitle] h1",
     "finalUrl": "a#buyNow/@href",
     "dealPrice": "div#dealPrice",
