@@ -3,7 +3,7 @@
   "model": "com.ctx.crawler.model.Article",
   "path_type": "xpath",
   "fields": {
-    "title": "//*[@property=\"og:title\"]/@content|//*[@itemprop=\"name\"]|//*[@name=\"twitter:title\"]/@content|//meta[@name=\"title\"]/@content|//title|//h1|//*[contains(@id*,\"title\")]",
+    "title": "//*[@property=\"og:title\"]/@content|//*[@itemprop=\"name\"]|//*[@name=\"twitter:title\"]/@content|//meta[@name=\"title\"]/@content|//title|//h1|//*[contains(@id,\"title\")]",
     "description": "//meta[@name=\"description\"]/@content|//*[@property=\"og:description\"]/@content|//*[@itemprop!=\"reviews\"]/*[@itemprop=\"description\"]|//*[@name=\"twitter:description\"]/@content",
     "siteName": "//*[@property=\"og:site_name\"]/@content",
     "tags": "//*[@itemprop=\"keywords\"]/@content",
