@@ -1,6 +1,6 @@
 {
   "name": "article:base",
-  "model": "com.ctx.crawler.model.Article",
+  "model": "com.findology.crawler.model.Article",
   "path_type": "xpath",
   "fields": {
     "title": "//*[@property=\"og:title\"]/@content|//*[@itemprop=\"name\"]|//*[@name=\"twitter:title\"]/@content|//meta[@name=\"title\"]/@content|//title|//h1|//*[contains(@id,\"title\")]",
